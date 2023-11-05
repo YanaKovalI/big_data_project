@@ -1,0 +1,2 @@
+# exclude database files from git
+dataset/*

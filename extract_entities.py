@@ -2,14 +2,24 @@
 # #weights = inverse of domain size
 # # domain size = number of entities in the table
 
-import json
-from SPARQLWrapper import SPARQLWrapper, JSON
 import pandas as pd
 import spacy
 
 input_table = pd.read_csv("countries_database.csv")
 
+#extract entities from the first/second column
 def extract_entities_from_table(table):
+    # Check if the first column is named 'id'
+    if 'id' in table.columns[0].lower():
+        # If it's an "id" column, return entities from the second column
+        return table.iloc[:, 1].tolist()
+    else:
+        # Extract entities from the first column
+        entities = table.iloc[:, 0].tolist()
+        return entities
+
+#extract entities using nlp
+def extract_entities_from_table_with_nlp(table):
     # Load the spaCy model 
     nlp = spacy.load("en_core_web_sm")
 
@@ -28,9 +38,8 @@ def extract_entities_from_table(table):
     return entities
 
 
-
-
 extracted_entities = extract_entities_from_table(input_table)
+extracted_entities_nlp = extract_entities_from_table_with_nlp(input_table) 
 
 print(extracted_entities)
 

@@ -1,17 +1,13 @@
 import requests
 import pandas as pd
+import extract_entities
+import json
 
 url = "https://www.wikidata.org/w/api.php"
 
 input_table = pd.read_csv("countries_database.csv")
 
-#extract entities from the first column
-def extract_entities_from_table(table):
-        entities = table.iloc[:, 0].tolist()
-        return entities
-
-#query = input("Enter entity:")
-entities = extract_entities_from_table(input_table)
+entities = extract_entities.extract_entities_from_table(input_table)
 results = []
 
 for entity in entities:
@@ -25,6 +21,25 @@ for entity in entities:
     results.append(data.json())
 
 
-# Now you can work with the results as needed, for example, print them all:
+# just print  json results for each entity
 for result in results:
     print(f"NEW ENTITY {result}\n\n\n")
+    
+
+information = {}  # Initialize the information dictionary "entity" : [list of labels]
+
+for entity, result in zip(entities, results):
+    labels = []  # Initialize a list to store labels for each entity
+    for item in result.get("search", []):
+        label = item.get("display", {}).get("label", {}).get("value")
+        labels.append(label)
+
+    # Store the labels list for the current entity
+    information[entity] = labels
+
+print(information)
+
+
+
+
+# print(information)        

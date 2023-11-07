@@ -1,7 +1,3 @@
-
-# #weights = inverse of domain size
-# # domain size = number of entities in the table
-
 import pandas as pd
 import spacy
 
@@ -41,5 +37,5 @@ def extract_entities_from_table_with_nlp(table):
 extracted_entities = extract_entities_from_table(input_table)
 extracted_entities_nlp = extract_entities_from_table_with_nlp(input_table) 
 
-print(extracted_entities)
+# print(extracted_entities)
 

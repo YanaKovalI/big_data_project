@@ -2,6 +2,9 @@ import requests
 import pandas as pd
 import extract_entities
 import json
+import re
+import nltk.stem.porter 
+
 
 url = "https://www.wikidata.org/w/api.php"
 
@@ -22,9 +25,9 @@ for entity in entities:
 
 
 # just print  json results for each entity
-for result in results:
-    print(f"NEW ENTITY {result}\n\n\n")
-    
+# for result in results:
+#     print(f"NEW ENTITY {result}\n\n\n")
+#     print("\n\n")
 
 information = {}  # Initialize the information dictionary "entity" : [list of labels]
 
@@ -34,12 +37,29 @@ for entity, result in zip(entities, results):
         label = item.get("display", {}).get("label", {}).get("value")
         labels.append(label)
 
-    # Store the labels list for the current entity
+    # Store the labels list for each entity
     information[entity] = labels
 
-print(information)
+# print(information)
+# print("\n\n")
 
+#compute weights for labels
+entity_vector = {}
+for entity,labels in information.items():
+    new_entity = entity.replace(" ", "")
+    vector = {}
+    for label in labels:
+        new_label =  re.sub(r'[^a-zA-Z0-9]', '', label)
+        #stemmer to extract stems of the words
+        porter_stemmer = nltk.PorterStemmer()
+        if (new_entity.lower() in new_label.lower()) | (porter_stemmer.stem(new_entity) in new_label.lower()):
+            if len(new_entity) == len(new_label):
+                weight = 1
+            elif len(new_entity) < len(new_label):
+                weight = (1 - 2/(len(new_label) - len(new_entity))) + 0.000001
+        else:
+            weight = 0
+        vector[label] = weight
+    entity_vector[entity] = vector
 
-
-
-# print(information)        
+print(entity_vector)

@@ -48,43 +48,34 @@ import nltk
 from collections import Counter
 import math
 
-porter_stemmer = nltk.PorterStemmer()
+def get_weights(information):
+    porter_stemmer = nltk.PorterStemmer()
 
-noun_informations = {}
+    weighted_informations = {}
 
-#Get all nouns (and adjectives) from all labels of an entity and count their appearence
+    for entity,labels in information.items():
 
-for entity,labels in information.items():
+        label_nouns = []
 
-    label_nouns = []
+        for label in labels:
 
-    for label in labels:
-        
-        label_tokens = label.split()
-        tags = nltk.pos_tag(label_tokens)
-        nouns = [word for word,pos in tags if (pos == 'NN' or pos == 'NNP' or pos == 'NNS' or pos == 'NNPS' or pos == 'JJ')]
+            label_tokens = label.split()
+            tags = nltk.pos_tag(label_tokens)
+            nouns = [word for word,pos in tags if (pos == 'NN' or pos == 'NNP' or pos == 'NNS' or pos == 'NNPS')]
 
-        label_nouns.extend(nouns)
+            label_nouns.extend(nouns)
 
-    noun_informations[entity] = dict(Counter(label_nouns))
+        noun_counter = dict(Counter(label_nouns))
+        max_noun_appearence = max(noun_counter.values())
 
-#calculate based on the appearence of each noun the label weight for each label of an entity
+        weighted_informations[entity] = {}
 
-for entity,labels in information.items():
+        for noun,count in noun_counter.items():
 
-    noun_counter = noun_informations[entity]
-    noun_list = list(noun_counter.keys())
-    noun_total = sum(noun_counter.values())
-    print(noun_counter)
+            weighted_informations[entity][noun] = count/max_noun_appearence
 
-    for label in labels:
+    display(weighted_informations)
 
-        label_noun_appearence = 0
+    return weighted_informations
 
-        for token in label.split():
-
-            if token in noun_list:
-
-                label_noun_appearence += noun_counter[token]
-
-        print(label,label_noun_appearence, label_noun_appearence/(noun_total*len(label.split())))
+get_weights(information)

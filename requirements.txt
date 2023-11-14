@@ -1,1 +1,6 @@
 requests
+pandas
+spacy
+six
+urllib3
+SPARQLWrapper

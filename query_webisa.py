@@ -1,9 +1,19 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 
+
+def get_labels_for_set(entities):
+    labels = {}
+    for entity in entities:
+        labels[entity] = get_labels(entity)
+    return labels
+
+
 def get_labels(entity):
     query_results = query_webisa(entity)
-    labels = format_query_results(query_results)
-    print(labels)
+    if query_results is not None:
+        labels = format_query_results(query_results)
+        return labels
+    return {}
 
 
 def query_webisa(entity, confidence=0.75):
@@ -28,8 +38,6 @@ def query_webisa(entity, confidence=0.75):
     try:
         ret = sparql.queryAndConvert()
 
-        for r in ret["results"]["bindings"]:
-            print(r)
         return ret["results"]["bindings"]
 
     except Exception as e:

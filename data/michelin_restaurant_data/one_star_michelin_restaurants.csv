@@ -1,0 +1,550 @@
+,name,year,city,zipCode,cuisine,price
+0,Kilian Stuba,2019,Kleinwalsertal,87568,Creative,$$$$$
+1,Pfefferschiff,2019,Hallwang,5300,Classic cuisine,$$$$$
+2,Esszimmer,2019,Salzburg,5020,Creative,$$$$$
+3,Carpe Diem,2019,Salzburg,5020,Market cuisine,$$$$$
+4,Edvard,2019,Wien,1010,Modern cuisine,$$$$
+5,Das Loft,2019,Wien,1020,Modern cuisine,$$$$$
+6,Pramerl & the Wolf,2019,Wien,1090,Creative,$$$$$
+7,Walter Bauer,2019,Wien,1010,Classic cuisine,$$$$$
+8,SHIKI,2019,Wien,1010,Japanese,$$$$$
+9,Tian,2019,Wien,1010,Vegetarian,$$$$$
+10,aend,2019,Wien,1010,Modern cuisine,$$$$$
+11,Le Ciel by Toni Mörwald,2019,Wien,1010,Classic cuisine,$$$$$
+12,Chez TJ,2019,South San Francisco,94041,Contemporary,$$$$
+13,Protégé,2019,South San Francisco,94301,Contemporary,$$$
+14,Madera,2019,San Francisco,94025,Contemporary,$$$
+15,The Village Pub,2019,San Francisco,94062,Contemporary,$$$
+16,Plumed Horse,2019,South San Francisco,95070,Contemporary,$$$$
+17,Wakuriya,2019,San Francisco,94402,Japanese,$$$$
+18,Sushi Yoshizumi,2019,San Francisco,94401,Japanese,$$$$
+19,Rasa,2019,San Francisco,94010,Indian,$$
+20,Maum,2019,South San Francisco,94101,Korean,$$$$
+21,Al's Place,2019,San Francisco,94110,Californian,$$
+22,Aster,2019,San Francisco,94110,Californian,$$$
+23,Omakase,2019,San Francisco,94103,Japanese,$$$$
+24,Commonwealth,2019,San Francisco,94110,Contemporary,$$
+25,Luce,2019,San Francisco,94103,Contemporary,$$$
+26,Birdsong,2019,San Francisco,94101,American,$$$$
+27,In Situ,2019,San Francisco,94103,International,$$$$
+28,Mourad,2019,San Francisco,94105,Moroccan,$$$
+29,Hashiri,2019,San Francisco,94103,Japanese,$$$$
+30,Angler,2019,San Francisco,94101,Contemporary,$$$$
+31,Rich Table,2019,San Francisco,94102,Contemporary,$$$
+32,Kin Khao,2019,San Francisco,94102,Thai,$$
+33,Michael Mina,2019,San Francisco,94102,Contemporary,$$$$
+34,Sons & Daughters,2019,San Francisco,94108,Contemporary,$$$$
+35,Mister Jiu's,2019,San Francisco,94108,Chinese,$$$
+36,Nico,2019,San Francisco,94101,Contemporary,$$$
+37,jū-ni,2019,San Francisco,94117,Japanese,$$$$
+38,Keiko à Nob Hill,2019,San Francisco,94109,Fusion,$$$$
+39,The Progress,2019,San Francisco,94115,Californian,$$$
+40,State Bird Provisions,2019,San Francisco,94115,American,$$
+41,Octavia,2019,San Francisco,94109,Californian,$$$
+42,SPQR,2019,San Francisco,94115,Italian,$$$
+43,Lord Stanley,2019,San Francisco,94109,Californian,$$$
+44,Kinjo,2019,San Francisco,94109,Japanese,$$$$
+45,Sorrel,2019,San Francisco,94101,Californian,$$$
+46,Gary Danko,2019,San Francisco,94109,Contemporary,$$$$
+47,Bar Crenn,2019,San Francisco,94101,French,$$$
+48,Spruce,2019,San Francisco,94118,Californian,$$$
+49,Wako,2019,San Francisco,94118,Japanese,$$$$
+50,Madcap,2019,San Francisco,94960,Contemporary,$$$$
+51,Aubergine,2019,Monterey,93921,Contemporary,$$$$
+52,Kenzo,2019,San Francisco,94559,Japanese,$$$$
+53,La Toque,2019,San Francisco,94573,Contemporary,$$$$
+54,Bouchon,2019,San Francisco,94599,French,$$$
+55,Auberge du Soleil,2019,San Francisco,94573,Californian,$$$$
+56,Farmhouse Inn & Restaurant,2019,San Francisco,95436,Californian,$$$$
+57,The Kitchen,2019,Sacramento,95825,Contemporary,$$$$
+58,Madrona Manor,2019,San Francisco,95448,Contemporary,$$$$
+59,Harbor House,2019,San Francisco,,Californian,$$$$
+60,Shin Sushi,2019,Los Angeles,91436,Japanese,$$$
+61,Rustic Canyon,2019,Los Angeles,90401,Californian,$$$
+62,Dialogue,2019,Los Angeles,90401,Contemporary,$$$$
+63,Kato,2019,Los Angeles,90025,Asian,$$$
+64,CUT,2019,Los Angeles,90212,Steakhouse,$$$$
+65,Nozawa Bar,2019,Los Angeles,90210,Japanese,$$$$
+66,Shunji,2019,Los Angeles,90064,Japanese,$$$$
+67,Maude,2019,Los Angeles,90212,Contemporary,$$$$
+68,Mori Sushi,2019,Los Angeles,90064,Japanese,$$$$
+69,Trois Mec,2019,Los Angeles,90028,Contemporary,$$$$
+70,Osteria Mozza,2019,Los Angeles,90028,Italian,$$$
+71,Kali,2019,Los Angeles,90028,Californian,$$$
+72,Le Comptoir,2019,Los Angeles,90020,Californian,$$$$
+73,Q Sushi,2019,Los Angeles,90017,Japanese,$$$$
+74,Shibumi,2019,Los Angeles,90014,Japanese,$$$$
+75,Hayato,2019,Los Angeles,90001,Japanese,$$$$
+76,Bistro Na's,2019,Los Angeles,91780,Chinese,$$
+77,Orsa & Winston,2019,Los Angeles,90013,Fusion,$$$$
+78,Taco María,2019,Costa Mesa,92626,Mexican,$$$
+79,Hana re,2019,Costa Mesa,92626,Japanese,$$$$
+80,Addison,2019,San Diego,92130,Contemporary,$$$$
+81,Parachute,2019,Chicago,60618,Fusion,$$
+82,Goosefoot,2019,Chicago,60625,Contemporary,$$$$
+83,Elizabeth,2019,Chicago,60625,Contemporary,$$$$
+84,EL Ideas,2019,Chicago,60618,Contemporary,$$$$
+85,Band of Bohemia,2019,Chicago,60640,Gastropub,$$$
+86,Schwa,2019,Chicago,60662,Contemporary,$$$$
+87,Temporis,2019,Chicago,,Contemporary,$$$$
+88,Entente,2019,Chicago,60657,Contemporary,$$$
+89,Elske,2019,Chicago,60607,Contemporary,$$$$
+90,Dusek's (Board & Beer),2019,Chicago,60608,Gastropub,$$
+91,Roister,2019,Chicago,60607,Contemporary,$$$
+92,Boka,2019,Chicago,60614,Contemporary,$$$
+93,Blackbird,2019,Chicago,60661,Contemporary,$$$
+94,Sepia,2019,Chicago,60661,American,$$$
+95,North Pond,2019,Chicago,60614,Contemporary,$$$
+96,Everest,2019,Chicago,60605,French,$$$$
+97,Topolobampo,2019,Chicago,60654,Mexican,$$$$
+98,Spiaggia,2019,Chicago,60611,Italian,$$$$
+99,Monte,2019,Rovinj,52210,Creative,$$$$$
+100,Draga di Lovrana,2019,Lovran,51415,Modern cuisine,$$$$$
+101,Noel,2019,Zagreb,10000,Modern cuisine,$$$$$
+102,Pelegrini,2019,Šibenik,22000,Modern cuisine,$$$$$
+103,360º,2019,Dubrovnik,20000,Modern cuisine,$$$$$
+104,Field,2019,Praha,110 00,Modern cuisine,$$$$$
+105,La Degustation Bohême Bourgeoise,2019,Praha,110 00,Modern cuisine,$$$$$
+106,Gastromé,2019,Aarhus,8000,Modern cuisine,$$$
+107,Domestic,2019,Aarhus,8000,Modern cuisine,$$$
+108,Substans,2019,Aarhus,8000,Modern cuisine,$$$
+109,Frederikshøj,2019,Aarhus,8000,Creative,$$$$
+110,Me‚Mu,2019,Vejle,7100,Modern cuisine,$$$
+111,Ti Trin Ned,2019,Fredericia,7000,Modern cuisine,$$$
+112,Slotskøkkenet,2019,Hørve,4534,Creative,$$$$
+113,Søllerød Kro,2019,København,2840,Modern cuisine,$$
+114,Jordnær,2019,København,2820,Danish,$$$
+115,Relæ,2019,København,2200 N,Modern cuisine,$$
+116,Kiin Kiin,2019,København,2200 N,Thai,$$
+117,formel B,2019,København,1800 C,Modern cuisine,$$
+118,Kokkeriet,2019,København,1306 K,Modern cuisine,$$$
+119,Clou,2019,København,2100 K,Modern cuisine,$$$$
+120,Marchal,2019,København,1050 K,Modern cuisine,$$
+121,Kong Hans Kælder,2019,København,1070 K,Classic French,$$$$
+122,Stud!o at The Standard,2019,København,1058 K,Creative,$$$
+123,108,2019,København,1401 K,Modern cuisine,$$$
+124,Era Ora,2019,København,1414 K,Italian,$$
+125,Alouette,2019,København,2300 S,Modern cuisine,$$$
+126,Frederiksminde,2019,Præstø,4720,Creative,$$$
+127,Kadeau Bornholm,2019,Pedersker,3720,Creative,$$$$
+128,Ask,2019,Helsingfors / Helsinki,00170,Modern cuisine,$$$
+129,Grön,2019,Helsingfors / Helsinki,00180,Finnish,$$$
+130,Demo,2019,Helsingfors / Helsinki,00120,Modern cuisine,$$$
+131,Olo,2019,Helsingfors / Helsinki,00170,Modern cuisine,$$$
+132,Palace,2019,Helsingfors / Helsinki,00130,Modern cuisine,$$$
+133,Ora,2019,Helsingfors / Helsinki,00150,Modern cuisine,$$$
+134,Botrini's,2019,Athína,152 33,Mediterranean,$$$$$
+135,Varoulko Seaside,2019,Athína,185 33,Seafood,$$$$$
+136,Hytra,2019,Athína,11745,Modern cuisine,$$$$$
+137,Loaf On,2019,Hong Kong,,Cantonese,$$
+138,Lei Garden (Kwun Tong),2019,Hong Kong,,Cantonese,$
+139,Tim Ho Wan (Sham Shui Po),2019,Hong Kong,,Dim Sum,$
+140,Lei Garden (Mong Kok),2019,Hong Kong,,Cantonese,$
+141,Ming Court,2019,Hong Kong,,Cantonese,$$$
+142,Yat Tung Heen (Jordan),2019,Hong Kong,,Cantonese,$$
+143,Fu Ho (Tsim Sha Tsui),2019,Hong Kong,,Cantonese,$$
+144,Shang Palace,2019,Hong Kong,,Cantonese,$$$
+145,IM Teppanyaki & Wine,2019,Hong Kong,,Teppanyaki,$$
+146,Ah Yat Harbour View (Tsim Sha Tsui),2019,Hong Kong,,Cantonese,$$
+147,Rech,2019,Hong Kong,,Seafood,$$$$
+148,Spring Moon,2019,Hong Kong,,Cantonese,$$$
+149,Imperial Treasure Fine Chinese Cuisine,2019,Hong Kong,,Cantonese,$$
+150,Sushi Tokami,2019,Hong Kong,,Sushi,$$$$$
+151,Tosca,2019,Hong Kong,,Italian,$$$
+152,Épure,2019,,,French,$$$
+153,Yee Tung Heen,2019,Hong Kong,,Cantonese,$$
+154,Yè Shanghai (Tsim Sha Tsui),2019,Hong Kong,,Shanghainese,$
+155,Ho Hung Kee,2019,Hong Kong,,Noodles and congee,$
+156,Jardin de Jade (Wan Chai),2019,Hong Kong,,Shanghainese,$$
+157,Zhejiang Heen,2019,Hong Kong,,Shanghainese,$$
+158,Takumi by Daisuke Mori,2019,Hong Kong,,Innovative,$$$$$
+159,Kam's Roast Goose,2019,Hong Kong,,Cantonese Roast Meats,$
+160,Pang's Kitchen,2019,Hong Kong,,Cantonese,$
+161,Xin Rong Ji,2019,Hong Kong,,Taizhou,$$$
+162,Qi (Wan Chai),2019,Hong Kong,,Sichuan,$
+163,Man Wah,2019,Hong Kong,,Cantonese,$$$$
+164,Summer Palace,2019,Hong Kong,,Cantonese,$$$
+165,Octavium,2019,Hong Kong,,Italian,$$$
+166,Arbor,2019,,,Innovative,$$$
+167,VEA,2019,Hong Kong,,Innovative,$$$$$
+168,Mandarin Grill + Bar,2019,Hong Kong,,European contemporary,$$$$
+169,Yat Lok,2019,Hong Kong,,Cantonese Roast Meats,$
+170,Guo Fu Lou,2019,Hong Kong,,Cantonese,$$$
+171,Celebrity Cuisine,2019,Hong Kong,,Cantonese,$$
+172,Sushi Wadatsumi,2019,Hong Kong,,Sushi,$$$
+173,Arcane,2019,Hong Kong,,European contemporary,$$$
+174,Duddell's,2019,Hong Kong,,Cantonese,$$$
+175,Beefbar,2019,Hong Kong,,Steakhouse,$$
+176,New Punjab Club,2019,Hong Kong,,Indian,$$
+177,Kaiseki Den by Saotome,2019,Hong Kong,,Japanese,$$$$$
+178,Belon,2019,Hong Kong,,French,$$$
+179,Tate,2019,Hong Kong,,Innovative,$$$$$
+180,The Ocean,2019,Hong Kong,,French,$$$$$
+181,Costes Downtown,2019,Budapest,1051,Modern cuisine,$$$$
+182,Borkonyha Winekitchen,2019,Budapest,1051,Modern cuisine,$$$$
+183,Stand,2019,Budapest,1061,Modern cuisine,$$$
+184,Babel,2019,Budapest,1052,Modern cuisine,$$$$$
+185,Costes,2019,Budapest,1092,Modern cuisine,$$$$$
+186,The Kitchen,2019,Macau,,Steakhouse,$$$
+187,Tim's Kitchen,2019,Macau,,Cantonese,$$
+188,Wing Lei,2019,Macau,,Cantonese,$$
+189,King,2019,Macau,,Cantonese,$
+190,Ying,2019,Macau,,Cantonese,$$
+191,Shinji by Kanesaka,2019,Macau,,Sushi,$$$$
+192,The Golden Peacock,2019,Macau,,Indian,$
+193,Zi Yat Heen,2019,Macau,,Cantonese,$$
+194,8 1/2 Otto e Mezzo - Bombana,2019,Macau,,Italian,$$$
+195,Pearl Dragon,2019,Macau,,Cantonese,$$$
+196,Lai Heen,2019,Macau,,Cantonese,$$
+197,FAGN,2019,Trondheim,7010,Modern cuisine,$$$$
+198,Credo,2019,Trondheim,7066,Creative,$$$$
+199,RE-NAA,2019,Stavanger,4006,Creative,$$$$
+200,Sabi Omakase,2019,Stavanger,4013,Sushi,$$$$
+201,Galt,2019,Oslo,0263,Modern cuisine,$$$
+202,Kontrast,2019,Oslo,0178,Scandinavian,$$$
+203,Statholdergaarden,2019,Oslo,0151,Classic cuisine,$$$$
+204,Del Posto,2019,New York,10011,Italian,$$$$
+205,Le Grill de Joël Robuchon,2019,New York,,French,$$$$
+206,L'Appart,2019,New York,10281,French,$$$$
+207,Okuda,2019,New York,,Japanese,$$$$
+208,Wallsé,2019,New York,10014,Austrian,$$$$
+209,Jeju Noodle Bar,2019,New York,10014,Korean,$$
+210,Sushi Nakazawa,2019,New York,10014,Japanese,$$$$
+211,Kosaka,2019,New York,10011,Japanese,$$$$
+212,Bâtard,2019,New York,10013,Contemporary,$$$$
+213,Hirohisa,2019,New York,10012,Japanese,$$$
+214,Blue Hill,2019,New York,10011,American,$$$$
+215,ZZ's Clam Bar,2019,New York,10012,Seafood,$$$$
+216,Babbo,2019,New York,10011,Italian,$$$$
+217,Carbone,2019,New York,10003,Italian,$$$$
+218,Le Coucou,2019,New York,10013,French,$$$
+219,Aldea,2019,New York,10011,Mediterranean,$$$$
+220,Cote,2019,New York,10010,Korean,$$$
+221,Bouley at Home,2019,New York,,Contemporary,$$$
+222,Gotham Bar and Grill,2019,New York,10003,American,$$$$
+223,Nix,2019,New York,10003,Vegetarian,$$$
+224,Junoon,2019,New York,10010,Indian,$$$$
+225,NoMad,2019,New York,10001,Contemporary,$$$$
+226,The Musket Room,2019,New York,10012,Contemporary,$$$
+227,Uncle Boons,2019,New York,10012,Thai,$$
+228,Noda,2019,New York,,Japanese,$$$$
+229,Gramercy Tavern,2019,New York,10003,Contemporary,$$$$
+230,The Clocktower,2019,New York,10010,Contemporary,$$$
+231,Ai Fiori,2019,New York,10018,Italian,$$$$
+232,Casa Mono,2019,New York,10003,Spanish,$$$
+233,Jewel Bako,2019,New York,10003,Japanese,$$$
+234,The River Café,2019,New York,11201,Contemporary,$$$$
+235,Bar Uchū,2019,New York,10002,Japanese,$$$$
+236,Café China,2019,New York,10016,Chinese,$$
+237,Kanoyama,2019,New York,10003,Japanese,$$$
+238,Contra,2019,New York,10002,Contemporary,$$$$
+239,Atomix,2019,New York,,Korean,$$$$
+240,Kyo Ya,2019,New York,10009,Japanese,$$$
+241,Kajitsu,2019,New York,10016,Japanese,$$$
+242,Agern,2019,New York,10017,Scandinavian,$$$$
+243,Caviar Russe,2019,New York,10022,Contemporary,$$$$
+244,Tuome,2019,New York,10009,Fusion,$$
+245,Tempura Matsui,2019,New York,10158,Japanese,$$$$
+246,Sushi Yasuda,2019,New York,10017,Japanese,$$$$
+247,Sushi Amane,2019,New York,10017,Japanese,$$$$
+248,Café Boulud,2019,New York,10021,French,$$$$
+249,Claro,2019,New York,,Mexican,$$
+250,Satsuki,2019,New York,10036,Japanese,$$$$
+251,Sushi Noz,2019,New York,,Japanese,$$$$
+252,Sushi Inoue,2019,New York,10027,Japanese,$$$$
+253,Meadowsweet,2019,New York,11212,Mediterranean,$$$
+254,Casa Enríque,2019,New York,11101,Mexican,$$
+255,Peter Luger,2019,New York,11211,Steakhouse,$$$$
+256,Oxomoco,2019,New York,11222,Mexican,$$$
+257,The Finch,2019,New York,11238,American,$$$
+258,Faro,2019,New York,11237,American,$$
+259,Senses,2019,Warszawa,00 085,Modern cuisine,$$$$$
+260,atelier Amaro,2019,Warszawa,00 507,Modern cuisine,$$$$
+261,Aniar,2019,Gaillimh/Galway,,Creative,
+262,Loam,2019,Gaillimh/Galway,,Creative,
+263,Wild Honey Inn,2019,Lios Dúin Bhearna/Lisdoonvarna,,Classic cuisine,
+264,Chestnut,2019,Ballydehob,,Modern cuisine,
+265,Mews,2019,Baltimore,,Modern cuisine,
+266,Ichigo Ichie,2019,Corcaigh/Cork,,Japanese,
+267,Chapter One,2019,City Centre,D1,Modern cuisine,
+268,Greenhouse,2019,City Centre,D2,Modern cuisine,
+269,L'Ecrivain,2019,City Centre,D2,Modern cuisine,
+270,Campagne,2019,Cill Chainnigh/Kilkenny,,Modern British,
+271,Heron & Grey,2019,Blackrock,,Modern cuisine,
+272,Lady Helen,2019,Baile Mhic Andáin/Thomastown,,Modern cuisine,
+273,House,2019,Aird Mhór/Ardmore,,Modern cuisine,
+274,Olympe,2019,Rio de Janeiro - 22470,230,French,$$$$$
+275,Lasai,2019,Rio de Janeiro - 22271,020,modern,$$$$$
+276,Oteque,2019,Rio de Janeiro - 22271,020,modern,$$$$$
+277,Mee,2019,Rio de Janeiro - 22021,001,Asian influences,$$$$$
+278,Cipriani,2019,Rio de Janeiro - 22021,001,Italian,$$$$$
+279,Jun Sakamoto,2019,São Paulo - 05413,000,Japanese,$$$$$
+280,Maní,2019,São Paulo - 05415,000,creative,$$$$$
+281,Evvai,2019,São Paulo - 05415,000,modern,$$$$$
+282,Picchi,2019,São Paulo - 01426,001,Italian,$$$$$
+283,Kosushi,2019,São Paulo - 04538,110,Japanese,$$$
+284,Ryo Gastronomia,2019,São Paulo - 04531,001,Japanese,$$$$$
+285,Tangará Jean-Georges,2019,São Paulo - 05706,290,modern,$$$$$
+286,Kinoshita,2019,São Paulo - 04509,001,Japanese,$$$$$
+287,Kan Suke,2019,São Paulo - 01401,000,Japanese,$$$$$
+288,Huto,2019,São Paulo - 04080,004,Japanese,$$$$$
+289,Stay,2019,Seoul,,French contemporary,$$$
+290,Lee Jong Kuk 104,2019,Seoul,,Korean,$$$$
+291,Hansikgonggan,2019,Seoul,,Korean,$$$
+292,Dining in Space,2019,Seoul,,French contemporary,$$$
+293,Exquisine,2019,Seoul,,Innovative,$$$
+294,Dosa,2019,Seoul,,Innovative,$$$
+295,Joo Ok,2019,Seoul,,Korean contemporary,$$$
+296,Balwoo Gongyang,2019,Seoul,,Temple cuisine,$$
+297,Muoki,2019,Seoul,,Innovative,$$$
+298,L'Amitié,2019,Seoul,,French,$$$
+299,Yu Yuan,2019,Seoul,,Chinese,$$$
+300,Bicena,2019,Seoul,,Korean,$$$
+301,Mosu,2019,Seoul,,Innovative,$$$$$
+302,Poom,2019,Seoul,,Korean,$$$
+303,Soigné,2019,Seoul,,Innovative,$$$
+304,Table for Four,2019,Seoul,,European contemporary,$$$
+305,Zero Complex,2019,Seoul,,Innovative,$$$
+306,Jin Jin,2019,Seoul,,Chinese,$
+307,Gotgan,2019,Seoul,,Korean,$$$$
+308,Hill Street Tai Hwa Pork Noodle,2018,Singapore,,Street Food,$
+309,Putien (Kitchener Road),2018,Singapore,,Fujian,$
+310,Chef Kang's,2018,Singapore,,Cantonese,$$$
+311,Garibaldi,2018,Singapore,,Italian,$
+312,Summer Pavilion,2018,Singapore,,Cantonese,$$
+313,Shinji (Bras Basah Road),2018,Singapore,,Sushi,$$
+314,The Song of India,2018,Singapore,,Indian,$
+315,Lei Garden,2018,Singapore,,Cantonese,$
+316,Whitegrass,2018,Singapore,,Australian,$$
+317,Jaan,2018,Singapore,,French contemporary,$$$
+318,Labyrinth,2018,Singapore,,Innovative,$$
+319,Cut,2018,Singapore,,Steakhouse,$$$
+320,Alma,2018,Singapore,,European contemporary,$
+321,Béni,2018,Singapore,,French contemporary,$$
+322,Crystal Jade Golden Palace,2018,Singapore,,Chinese,$
+323,Imperial Treasure Fine Teochew Cuisine (Orchard),2018,Singapore,,Chinese,$
+324,Saint Pierre,2018,Singapore,,French contemporary,$$
+325,Sushi Ichi,2018,Singapore,,Sushi,$$$
+326,Sushi Kimura,2018,Singapore,,Sushi,$$$$
+327,Iggy's,2018,Singapore,,European contemporary,$$$
+328,Braci,2018,Singapore,,Italian contemporary,$$
+329,Jiang-Nan Chun,2018,Singapore,,Cantonese,$$$
+330,Bacchanalia,2018,Singapore,,Innovative,$$
+331,Shinji (Tanglin Road),2018,Singapore,,Sushi,$$$$
+332,Corner House,2018,Singapore,,Innovative,$$
+333,Summer Palace,2018,Singapore,,Cantonese,$
+334,Cheek by Jowl,2018,Singapore,,Australian,$
+335,Nouri,2018,Singapore,,Innovative,$
+336,Liao Fan Hong Kong Soya Sauce Chicken Rice & Noodle,2018,Singapore,,Street Food,$
+337,Burnt Ends,2018,Singapore,,Barbecue,$$
+338,Rhubarb,2018,Singapore,,French contemporary,$
+339,Meta,2018,Singapore,,Innovative,$$
+340,Ma Cuisine,2018,Singapore,,French,$
+341,Candlenut,2018,Singapore,,Peranakan,$
+342,Bhoga,2019,Göteborg,411 14,Creative,$$$
+343,Koka,2019,Göteborg,411 25,Modern cuisine,$$$
+344,28+,2019,Göteborg,411 34,Modern cuisine,$$$
+345,SK Mat & Människor,2019,Göteborg,412 55,Modern cuisine,$$$
+346,Thörnströms Kök,2019,Göteborg,411 32,Classic cuisine,$$$
+347,Upper House,2019,Göteborg,402 26,Creative,$$$$
+348,Agrikultur,2019,Stockholm,113 54,Modern cuisine,$$$$
+349,Sushi Sho,2019,Stockholm,113 28,Japanese,$$$
+350,Volt,2019,Stockholm,114 48,Creative,$$$
+351,Ekstedt,2019,Stockholm,11446,Meats and grills,$$$
+352,Operakällaren,2019,Stockholm,111 86,Classic cuisine,$$$$
+353,Mathias Dahlgren-Matbaren,2019,Stockholm,103 27,Modern cuisine,$$
+354,Aloë,2019,Stockholm,125 33,Creative,$$$$
+355,PM & Vänner,2019,Växjö,352 31,Creative,$$$
+356,Bloom in the Park,2019,Malmö,214 66,Creative,$$
+357,SAV,2019,Malmö,21875,Creative,$$$
+358,Golden Formosa,2019,Taipei,110,Taiwanese,$$
+359,Danny's Steakhouse,2019,Taipei,110,Steakhouse,$$
+360,L'Atelier de Joël Robuchon,2019,Taipei,110,French contemporary,$$$
+361,Kitcho,2019,Taipei,110,Sushi,$$$$
+362,Tien Hsiang Lo,2019,Taipei,110,Hang Zhou,$$
+363,Ya Ge,2019,Taipei,110,Cantonese,$$
+364,Da-Wan,2019,Taipei,110,Barbecue,$$$
+365,Sushi Nomura,2019,Taipei,110,Sushi,$$$
+366,logy,2019,Taipei,110,Asian contemporary,$$$$
+367,Ming Fu,2019,Taipei,110,Taiwanese,$$$
+368,Ken An Ho,2019,Taipei,110,Japanese,$$$$
+369,Sushi Ryu,2019,Taipei,110,Sushi,$$$$
+370,MUME,2019,Taipei,110,European contemporary,$$$
+371,Impromptu by Paul Lee,2019,Taipei,110,Innovative,$$$
+372,Longtail,2019,Taipei,110,Innovative,$$
+373,Mountain and Sea House,2019,Taipei,110,Taiwanese,$$
+374,Da San Yuan,2019,Taipei,110,Cantonese,$
+375,Tainan Tan Tsu Mien Seafood,2019,Taipei,110,Seafood,$$
+376,Suan Thip,2019,Bangkok,,Thai,$
+377,Upstairs at Mikkeller,2019,Bangkok,,Innovative,$$$$$
+378,Chim by Siam Wisdom,2019,Bangkok,,Thai,$$$
+379,R-Haan,2019,Bangkok,,Thai,$$$$
+380,Canvas,2019,Bangkok,,Innovative,$$$$
+381,Bo.lan,2019,Bangkok,,Thai,$$$$$
+382,Sra Bua by Kiin Kiin,2019,Bangkok,,Thai Contemporary,$$$
+383,Elements,2019,Bangkok,,French contemporary,$$$$
+384,Paste,2019,Bangkok,,Thai,$$$
+385,Ginza Sushi ichi,2019,Bangkok,,Sushi,$$$$
+386,Sorn,2019,Bangkok,,Southern Thai,$$$$$
+387,Savelberg,2019,Bangkok,,French contemporary,$$$
+388,Saneh Jaan,2019,Bangkok,,Thai,$$
+389,Gaa,2019,Bangkok,,Innovative,$$$$
+390,Methavalai Sorndaeng,2019,Bangkok,,Thai,$$
+391,Jay Fai,2019,Bangkok,,Street Food,$$
+392,Nahm,2019,Bangkok,,Thai,$$$
+393,J'AIME by Jean-Michel Lorain,2019,Bangkok,,French contemporary,$$$
+394,Saawaan,2019,Bangkok,,Thai Contemporary,$$$$
+395,Le Du,2019,Bangkok,,Thai,$$$$
+396,Ruean Panya,2019,Bangkok,,Thai,$$
+397,PRU,2019,Phuket,,Innovative,$$$$$
+398,Blue Duck Tavern,2019,"Washington, D.C.",20037,American,$$$
+399,Tail Up Goat,2019,"Washington, D.C.",20009,Contemporary,$$
+400,Komi,2019,"Washington, D.C.",20036,Mediterranean,$$$$
+401,Sushi Taro,2019,"Washington, D.C.",20036,Japanese,$$$$
+402,Plume,2019,"Washington, D.C.",20036,European,$$$$
+403,Siren by RW,2019,"Washington, D.C.",20005,Seafood,$$$
+404,Bresca,2019,"Washington, D.C.",20000,Contemporary,$$
+405,The Dabney,2019,"Washington, D.C.",20001,American,$$
+406,Métier,2019,"Washington, D.C.",20001,Contemporary,$$$$
+407,Kinship,2019,"Washington, D.C.",20001,Contemporary,$$$
+408,Fiola,2019,"Washington, D.C.",20004,Italian,$$$$
+409,Masseria,2019,"Washington, D.C.",20002,Italian,$$$
+410,Rose's Luxury,2019,"Washington, D.C.",20003,Contemporary,$$
+411,Loch Bay,2019,Waternish,IV55 8GA,Modern cuisine,
+412,Braidwoods,2019,Dalry,KA24 4LN,Classic cuisine,
+413,Eipic,2019,Belfast,BT1 6PF,Modern cuisine,
+414,OX,2019,Belfast,BT1 3LA,Modern British,
+415,The Peat Inn,2019,Peat Inn,KY15 5LH,Classic cuisine,
+416,Kitchin,2019,Leith,EH6 6LX,Modern cuisine,
+417,Martin Wishart,2019,Leith,EH6 6RA,Modern cuisine,
+418,Number One,2019,Edinburgh,EH2 2EQ,Modern cuisine,
+419,21212,2019,Edinburgh,EH7 5AB,Creative,
+420,The Cellar,2019,Anstruther,KY10 3AA,Modern cuisine,
+421,Forest Side,2019,Grasmere,LA22 9RN,Modern British,
+422,HRiSHi,2019,Bowness-on-Windermere,LA23 3NE,Modern cuisine,
+423,Rogan & Co,2019,Cartmel,LA11 6QD,Creative British,
+424,House of Tides,2019,Newcastle upon Tyne,NE1 3RF,Modern cuisine,
+425,Sosban & The Old Butchers,2019,Menai Bridge/Porthaethwy,LL59 5EE,Modern cuisine,
+426,Northcote,2019,Langho,BB6 8BE,Modern British,
+427,Yorke Arms,2019,Pateley Bridge,HG3 5RL,Modern cuisine,
+428,Fraiche,2019,Birkenhead,CH43 5SG,Creative,
+429,White Swan,2019,Fence,BB12 9QA,Modern British,
+430,Tyddyn Llan,2019,Llandrillo,LL21 OST,Classic cuisine,
+431,Ynyshir,2019,Machynlleth,SY20 8TA,Creative,
+432,Black Swan,2019,Oldstead,YO61 4BL,Modern British,
+433,Simon Radley at Chester Grosvenor,2019,Chester,CH1 1LT,Modern cuisine,
+434,Star Inn at Harome,2019,Harome,YO62 5JE,Modern British,
+435,The Man Behind The Curtain,2019,Leeds,LS1 7JH,Creative,
+436,The Checkers,2019,Montgomery/Trefaldwyn,SY15 6PN,French,
+437,Pipe and Glass,2019,South Dalton,HU17 7PN,Modern British,
+438,Fischer's at Baslow Hall,2019,Baslow,DE45 1RR,Modern cuisine,
+439,Winteringham Fields,2019,Winteringham,DN15 9ND,Modern cuisine,
+440,Thomas Carr @ The Olive Room,2019,Ilfracombe,EX34 9DJ,Seafood,
+441,Walnut Tree,2019,Llanddewi Skirrid,NP7 8AW,Modern British,
+442,Paul Ainsworth at No.6,2019,Padstow,PL28 8AP,Modern cuisine,
+443,Simpsons,2019,Birmingham,B15 3DU,Modern cuisine,
+444,Purnell's,2019,Birmingham,B3 2DH,Modern cuisine,
+445,Adam's,2019,Birmingham,B2 5UG,Modern cuisine,
+446,Outlaw's Fish Kitchen,2019,Port Isaac,PL29 3RH,Seafood,
+447,Carters of Moseley,2019,Birmingham,B13 9EZ,Modern British,
+448,Peel's,2019,Hampton in Arden,B92 ODQ,Creative British,
+449,John's House,2019,Mountsorrel,LE12 7AR,Modern cuisine,
+450,The Whitebrook,2019,Whitebrook,NP25 4TX,Modern British,
+451,James Sommerin,2019,Penarth,CF64 3AU,Modern cuisine,
+452,Driftwood,2019,Portscatho,TR2 5EW,Modern cuisine,
+453,The Cross at Kenilworth,2019,Kenilworth,CV8 2EZ,Classic cuisine,
+454,Masons Arms,2019,Knowstone,EX36 4RY,Classic French,
+455,Salt,2019,Stratford-upon-Avon,CV37 6HB,Modern British,
+456,Le Champignon Sauvage,2019,Cheltenham,GL50 2AQ,Modern cuisine,
+457,Gidleigh Park,2019,Chagford,TQ13 8HH,Modern cuisine,
+458,Hambleton Hall,2019,Upper Hambleton,LE15 8TH,Classic cuisine,
+459,wilks,2019,Bristol,BS6 6PG,Modern British,
+460,Bulrush,2019,Bristol,BS6 5TZ,Modern British,
+461,Casamia,2019,Bristol,BS1 6FU,Creative,
+462,Paco Tapas,2019,Bristol,BS1 6FU,Spanish,
+463,Pony & Trap,2019,Chew Magna,BS40 8TQ,Modern British,
+464,The Dining Room,2019,Malmesbury,SN16 0RB,Asian influences,
+465,Bybrook,2019,Castle Combe,SN14 7HR,Modern British,
+466,Restaurant Hywel Jones by Lucknam Park,2019,Colerne,SN14 8AZ,Modern British,
+467,Olive Tree,2019,Bath,BA1 2QF,Modern cuisine,
+468,Lympstone Manor,2019,Lympstone,EX8 3NZ,Modern cuisine,
+469,The Neptune,2019,Hunstanton,PE36 6HZ,Modern cuisine,
+470,Elephant,2019,Torquay,TQ1 2BH,Modern British,
+471,Oxford Kitchen,2019,Oxford,OX2 7HQ,Modern British,
+472,Nut Tree,2019,Murcott,OX5 2RE,Traditional British,
+473,Morston Hall,2019,Morston,NR25 7AA,Modern British,
+474,Red Lion Freehouse,2019,East Chisenbury,SN9 6AQ,Classic cuisine,
+475,Blackbird,2019,Newbury,RG20 8AQ,Classic cuisine,
+476,Woodspeen,2019,Newbury,RG20 8BN,Modern cuisine,
+477,The Coach,2019,Marlow,SL7 2LS,Modern British,
+478,Crown,2019,Burchett's Green,SL6 6QZ,Regional cuisine,
+479,L'Ortolan,2019,Shinfield,RG2 9BY,French,
+480,Hinds Head,2019,Bray,SL6 2AB,Traditional British,
+481,Black Rat,2019,Winchester,SO23 0HX,Modern cuisine,
+482,Matt Worswick at The Latymer,2019,Bagshot,GU19 5EU,Modern cuisine,
+483,Coworth Park,2019,Ascot,SL5 7SE,Modern cuisine,
+484,Tudor Room,2019,Egham,TW20 9UR,Modern cuisine,
+485,The Glasshouse,2019,Kew,TW9 3PZ,Modern cuisine,
+486,La Trompette,2019,Chiswick,W4 2EU,Modern British,
+487,Tim Allen's Flitch of Bacon,2019,Little Dunmow,CM6 3HT,Modern British,
+488,River Café,2019,Hammersmith,W6 9HA,Italian,
+489,Kitchen W8,2019,Kensington,W8 6AH,Modern cuisine,
+490,Trishna,2019,Marylebone,W1U 3DG,Indian,
+491,Roganic,2019,Marylebone,W1U 3DB,Creative British,
+492,Locanda Locatelli,2019,Marylebone,W1H 7JZ,Italian,
+493,Texture,2019,Marylebone,W1H 7BY,Creative,
+494,Portland,2019,Regent's Park,W1W 6QQ,Modern cuisine,
+495,Harwood Arms,2019,Fulham,SW6 1QP,Modern British,
+496,Pied à Terre,2019,Bloomsbury,W1T 2NH,Creative,
+497,The Ninth,2019,Bloomsbury,W1T 2NB,Mediterranean cuisine,
+498,Kai,2019,Mayfair,W1K 2QU,Chinese,
+499,Pollen Street Social,2019,Mayfair,W1S 1NQ,Creative,
+500,Hakkasan Mayfair,2019,Mayfair,W1J 6QB,Chinese,
+501,The Square,2019,Mayfair,W1J 6PU,Creative French,
+502,Alyn Williams at The Westbury,2019,Mayfair,W1S 2YF,Modern cuisine,
+503,Benares,2019,Mayfair,W1J 6BS,Indian,
+504,Hakkasan Hanway Place,2019,Bloomsbury,W1T 1HD,Chinese,
+505,Social Eating House,2019,Soho,W1F 7NR,Modern cuisine,
+506,Galvin at Windows,2019,Mayfair,W1K 1BE,Modern cuisine,
+507,Murano,2019,Mayfair,W1J 5PP,Italian,
+508,Marcus,2019,Belgravia,SW1X 7RL,Modern cuisine,
+509,Sabor,2019,Mayfair,W1B 4BR,Spanish,
+510,Clock House,2019,Ripley,GU23 6AQ,Modern cuisine,
+511,Yauatcha Soho,2019,Soho,W1F 0DL,Chinese,
+512,Céleste,2019,Belgravia,SW1X 7TA,Creative French,
+513,Gymkhana,2019,Mayfair,W1S 4JH,Indian,
+514,Amaya,2019,Belgravia,SW1X 8JT,Indian,
+515,Pétrus,2019,Belgravia,SW1X 8EA,French,
+516,Veeraswamy,2019,Mayfair,W1B 4RS,Indian,
+517,Barrafina,2019,Soho,W1D 3LL,Spanish,
+518,Hide,2019,Mayfair,W1J 7NB,Modern British,
+519,Ritz Restaurant,2019,Westminster,W1J 9BR,Modern British,
+520,Elystan Street,2019,Chelsea,SW3 3NT,Modern British,
+521,Seven Park Place,2019,Saint James's,SW1A 1LS,Modern cuisine,
+522,Ikoyi,2019,Saint James's,SW1Y 4AH,Creative,
+523,Aquavit,2019,Saint James's,SW1Y 4QQ,Scandinavian,
+524,Five Fields,2019,Chelsea,SW3 2SP,Modern cuisine,
+525,Dining Room at The Goring,2019,Victoria,SW1W 0JW,Traditional British,
+526,St John,2019,Clerkenwell,EC1M 4AY,Traditional British,
+527,Quilon,2019,Victoria,SW1E 6AF,Indian,
+528,Club Gascon,2019,London,EC1A 9DS,French,
+529,A. Wong,2019,Victoria,SW1V 1DE,Chinese,
+530,The Clove Club,2019,Shoreditch,EC1V 9LT,Modern cuisine,
+531,Leroy,2019,Shoreditch,EC2A 4NU,Modern British,
+532,Angler,2019,Finsbury,EC2M 2AF,Seafood,
+533,Brat,2019,Shoreditch,E1 6JL,Traditional British,
+534,Lyle's,2019,Shoreditch,E1 6JJ,Modern British,
+535,Galvin La Chapelle,2019,Spitalfields,E1 6DY,French,
+536,City Social,2019,City of London,EC2N 1HQ,Modern cuisine,
+537,La Dame de Pic,2019,City of London,EC3N 4AJ,Modern French,
+538,Story,2019,Bermondsey,SE1 2JX,Modern cuisine,
+539,Trinity,2019,Clapham Common,SW4 0JG,Modern cuisine,
+540,Chez Bruce,2019,Wandsworth,SW17 7EG,French,
+541,Sorrel,2019,Dorking,RH4 2JU,Modern British,
+542,Restaurant Tristan,2019,Horsham,RH12 1HU,Modern British,
+543,Gravetye Manor,2019,Gravetye,RH19 4LJ,Modern British,
+544,The Sportsman,2019,Seasalter,CT5 4BP,Modern British,
+545,West House,2019,Biddenden,TN27 8AH,Modern British,
+546,Fordwich Arms,2019,Fordwich,CT2 0DB,Modern cuisine,
+547,Samphire,2019,Saint Helier/Saint-Hélier,JE2 4TQ,Modern cuisine,
+548,Bohemia,2019,Saint Helier/Saint-Hélier,JE2 4UH,Modern cuisine,

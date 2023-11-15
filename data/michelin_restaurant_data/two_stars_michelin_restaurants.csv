@@ -1,0 +1,111 @@
+,name,year,city,zipCode,cuisine,price
+0,SENNS.Restaurant,2019,Salzburg,5020,Creative,$$$$$
+1,Ikarus,2019,Salzburg,5020,Creative,$$$$$
+2,Mraz & Sohn,2019,Wien,1200,Creative,$$$$$
+3,Konstantin Filippou,2019,Wien,1010,Modern cuisine,$$$$$
+4,Silvio Nickol Gourmet Restaurant,2019,Wien,1010,Modern cuisine,$$$$$
+5,Steirereck im Stadtpark,2019,Wien,1030,Creative,$$$$$
+6,Baumé,2019,South San Francisco,94306,Contemporary,$$$$
+7,Commis,2019,San Francisco,94601,Contemporary,$$$$
+8,Californios,2019,San Francisco,94110,Mexican,$$$$
+9,Lazy Bear,2019,San Francisco,94110,Contemporary,$$$$
+10,Saison,2019,San Francisco,94107,Californian,$$$$
+11,Campton Place,2019,San Francisco,94108,Indian,$$$$
+12,Coi,2019,San Francisco,94133,Contemporary,$$$$
+13,Acquerello,2019,San Francisco,94109,Italian,$$$$
+14,Urasawa,2019,Los Angeles,90210,Japanese,$$$$
+15,Sushi Ginza Onodera,2019,Los Angeles,,Japanese,$$$$
+16,Somni,2019,Los Angeles,90048,Contemporary,$$$$
+17,Providence,2019,Los Angeles,90028,Seafood,$$$$
+18,n/naka,2019,Los Angeles,90034,Contemporary,$$$$
+19,Vespertine,2019,Los Angeles,90232,Contemporary,$$$$
+20,Smyth,2019,Chicago,60607,Contemporary,$$$$
+21,Oriole,2019,Chicago,60661,Contemporary,$$$$
+22,Acadia,2019,Chicago,60616,Contemporary,$$$$
+23,KOKS,2019,Leynar,335,Creative,$$$$
+24,Henne Kirkeby Kro,2019,Henne,6854,Classic cuisine,$$$
+25,a‚o‚c,2019,København,1302 K,Modern cuisine,$$$$
+26,noma,2019,København,1432 K,Creative,$$$$
+27,Kadeau Copenhagen,2019,København,1408 K,Modern cuisine,$$$$
+28,Spondi,2019,Athína,116 36,French,$$$$$
+29,Sun Tung Lok,2019,Hong Kong,,Cantonese,$$
+30,Yan Toh Heen,2019,Hong Kong,,Cantonese,$$$
+31,Tin Lung Heen,2019,Hong Kong,,Cantonese,$$$
+32,Tenku RyuGin,2019,Hong Kong,,Japanese,$$$$$
+33,Forum,2019,Hong Kong,,Cantonese,$$
+34,Sushi Saito,2019,Hong Kong,,Sushi,$$$$$
+35,Pierre,2019,Hong Kong,,French contemporary,$$$$
+36,Ying Jee Club,2019,Hong Kong,,Cantonese,$$
+37,Écriture,2019,Hong Kong,,French contemporary,$$$
+38,Ta Vie,2019,Hong Kong,,Innovative,$$$$$
+39,Amber,2019,Hong Kong,,French contemporary,$$$$
+40,Kashiwaya,2019,Hong Kong,,Japanese,$$$$
+41,Onyx,2019,Budapest,1051,Modern cuisine,$$$$$
+42,Feng Wei Ju,2019,Macau,,Hunanese and Sichuan,$
+43,Golden Flower,2019,Macau,,Chinese,$$
+44,Mizumi (Macau),2019,Macau,,Japanese,$$
+45,The Tasting Room,2019,Macau,,French contemporary,$$$
+46,Alain Ducasse at Morpheus,2019,Macau,,French contemporary,$$$$$
+47,L'Atelier de Joël Robuchon,2019,New York,,French,$$$$
+48,Jungsik,2019,New York,10013,Korean,$$$$
+49,Atera,2019,New York,10013,Contemporary,$$$$
+50,Jean-Georges,2019,New York,10023,Contemporary,$$$$
+51,Marea,2019,New York,10019,Seafood,$$$$
+52,Gabriel Kreuther,2019,New York,10036,Contemporary,$$$$
+53,Ichimura at Uchū,2019,New York,10002,Japanese,$$$$
+54,Sushi Ginza Onodera,2019,New York,10017,Japanese,$$$$
+55,Ko,2019,New York,10003,Contemporary,$$$$
+56,The Modern,2019,New York,10019,Contemporary,$$$$
+57,Aquavit,2019,New York,10022,Scandinavian,$$$$
+58,Daniel,2019,New York,10065,French,$$$$
+59,Aska,2019,New York,11249,Scandinavian,$$$$
+60,Blanca,2019,New York,11206,Contemporary,$$$$
+61,Patrick Guilbaud,2019,City Centre,D2,Modern French,
+62,Oro,2019,Rio de Janeiro - 22441,015,creative,$$$$$
+63,Tuju,2019,São Paulo - 05416,001,creative,$$$$$
+64,D.O.M.,2019,São Paulo - 01411,011,creative,$$$$$
+65,Kojima,2019,Seoul,,Sushi,$$$$$
+66,Jungsik,2019,Seoul,,Korean contemporary,$$$
+67,Kwonsooksoo,2019,Seoul,,Korean,$$$
+68,Mingles,2019,Seoul,,Korean contemporary,$$$
+69,Alla Prima,2019,Seoul,,Innovative,$$$
+70,Waku Ghin,2018,Singapore,,Japanese contemporary,$$$$$
+71,Odette,2018,Singapore,,French contemporary,$$$$
+72,Shoukouwa,2018,Singapore,,Sushi,$$$$$
+73,Shisen Hanten,2018,Singapore,,Chinese,$
+74,Les Amis,2018,Singapore,,French,$$$
+75,Fäviken Magasinet,2019,Järpen,837 94,Creative,$$$$
+76,Gastrologik,2019,Stockholm,114 51,Creative,$$$$
+77,Oaxen Krog,2019,Stockholm,11521,Creative,$$$$
+78,Vollmers,2019,Malmö,21133,Creative,$$$$
+79,Daniel Berlin,2019,Skåne-Tranås,273 92,Creative,$$$$
+80,RAW,2019,Taipei,110,Innovative,$$$
+81,Shoun RyuGin,2019,Taipei,110,Japanese contemporary,$$$$
+82,Taïrroir,2019,Taipei,110,Innovative,$$$
+83,Sushi Amamoto,2019,Taipei,110,Sushi,$$$$
+84,The Guest House,2019,Taipei,110,Sichuan-Huai Yang,$$
+85,Gaggan,2019,Bangkok,,Innovative,$$$$$
+86,Sühring,2019,Bangkok,,European contemporary,$$$$
+87,Mezzaluna,2019,Bangkok,,Innovative,$$$$$
+88,Le Normandie,2019,Bangkok,,French contemporary,$$$$
+89,minibar,2019,"Washington, D.C.",20004,Contemporary,$$$$
+90,Pineapple and Pearls,2019,"Washington, D.C.",20003,Contemporary,$$$$
+91,Andrew Fairlie at Gleneagles,2019,Auchterarder,PH3 1NF,Creative French,
+92,L'Enclume,2019,Cartmel,LA11 6PZ,Creative,
+93,Raby Hunt,2019,Summerhouse,DL2 3UD,Modern British,
+94,Moor Hall,2019,Aughton,L39 6RT,Modern British,
+95,Restaurant Sat Bains,2019,Nottingham,NG7 2SA,Creative,
+96,Restaurant Nathan Outlaw,2019,Port Isaac,PL29 3SB,Seafood,
+97,Belmond Le Manoir aux Quat' Saisons,2019,Great Milton,OX44 7PD,French,
+98,Midsummer House,2019,Cambridge,CB4 1HA,Modern cuisine,
+99,Hand and Flowers,2019,Marlow,SL7 2BP,Modern British,
+100,Ledbury,2019,North Kensington,W11 2AQ,Modern cuisine,
+101,CORE by Clare Smyth,2019,North Kensington,W11 2PN,Modern British,
+102,Le Gavroche,2019,Mayfair,W1K 7QR,French,
+103,Kitchen Table at Bubbledogs,2019,Bloomsbury,W1T 4QG,Modern cuisine,
+104,Hélène Darroze at The Connaught,2019,Mayfair,W1K 2AL,Modern cuisine,
+105,Dinner by Heston Blumenthal,2019,Hyde Park,SW1X 7LA,Traditional British,
+106,Umu,2019,Mayfair,W1J 6LX,Japanese,
+107,Sketch (The Lecture Room & Library),2019,Mayfair,W1S 2XG,Modern French,
+108,Greenhouse,2019,Mayfair,W1J 5NY,Creative,
+109,Claude Bosi at Bibendum,2019,Chelsea,SW3 6RD,French,

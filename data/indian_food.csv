@@ -1,0 +1,256 @@
+name,ingredients,prep_time,cook_time,flavor_profile
+Balu shahi,"Maida flour, yogurt, oil, sugar",45,25,sweet
+Boondi,"Gram flour, ghee, sugar",80,30,sweet
+Gajar ka halwa,"Carrots, milk, sugar, ghee, cashews, raisins",15,60,sweet
+Ghevar,"Flour, ghee, kewra, milk, clarified butter, sugar, almonds, pistachio, saffron, green cardamom",15,30,sweet
+Gulab jamun,"Milk powder, plain flour, baking powder, ghee, milk, sugar, water, rose water",15,40,sweet
+Imarti,"Sugar syrup, lentil flour",10,50,sweet
+Jalebi,"Maida, corn flour, baking soda, vinegar, curd, water, turmeric, saffron, cardamom",10,50,sweet
+Kaju katli,"Cashews, ghee, cardamom, sugar",10,20,sweet
+Kalakand,"Milk, cottage cheese, sugar",20,30,sweet
+Kheer,"Milk, rice, sugar, dried fruits",10,40,sweet
+Laddu,"Gram flour, ghee, sugar",10,40,sweet
+Lassi,"Yogurt, milk, nuts, sugar",5,5,sweet
+Nankhatai,"Refined flour, besan, ghee, powdered sugar, yoghurt, green cardamom",20,30,sweet
+Petha,"Firm white pumpkin, sugar, kitchen lime, alum powder",10,30,sweet
+Phirni,"Rice, sugar, nuts",30,20,sweet
+Rabri,"Condensed milk, sugar, spices, nuts",10,45,sweet
+Sheera,"Semolina, ghee, nuts, milk",10,25,sweet
+Singori,"Khoa, coconut, molu leaf",10,20,sweet
+Sohan halwa,"Corn flour, ghee, dry fruits",10,60,sweet
+Sohan papdi,"Gram flour, ghee, sugar, milk, cardamom",-1,60,sweet
+Chhena jalebi,"Chhena, sugar, ghee",10,50,sweet
+Chhena kheeri,"Chhena, sugar, milk",-1,60,sweet
+Chhena poda,"Sugar, chenna cheese",10,45,sweet
+Cham cham,"Flour, cream, sugar, saffron, lemon juice, coconut flakes",40,60,sweet
+Kheer sagar,"Chenna, condensed milk, sugar, saffron, cardamom",25,60,sweet
+Ledikeni,"Chhena, sugar, ghee",45,45,sweet
+Lyangcha,"Flour, fried milk power, sugar syrup",20,30,sweet
+Malapua,"Yoghurt, refined flour, ghee, fennel seeds",10,120,sweet
+Mihidana,"Besan flour, sugar, ghee",15,30,sweet
+Misti doi,"Milk, jaggery",480,30,sweet
+Pantua,"Chhena, sugar, ghee, flour",45,45,sweet
+Pithe,"Rice flour, wheat flour",15,35,sweet
+Rasabali,"Chenna, sweetened milk",15,30,sweet
+Ras malai,"Chhena, reduced milk, pistachio",180,60,sweet
+Rasgulla,"Chhena, sugar, cardamom",10,90,sweet
+Sandesh,"Milk, sugar, saffron, cardamom",30,20,sweet
+Adhirasam,"Rice flour, jaggery, ghee, vegetable oil, elachi",10,50,sweet
+Ariselu,"Rice flour, jaggery, ghee",15,75,sweet
+Bandar laddu,"Besan, jaggery, cardamom powder, ghee, cashews and raisins, jaggery syrup, sugar",5,35,sweet
+Chikki,"Peanuts, jaggery",10,20,sweet
+Dharwad pedha,"Milk, Sugar, Dharwadi buffalo milk",20,60,sweet
+Double ka meetha,"Loaf bread, milk",20,30,sweet
+Gavvalu,"Rice flour, sugar, salt, ghee, semolina",10,30,sweet
+Kakinada khaja,"Wheat flour, sugar",10,30,sweet
+Kuzhi paniyaram,"Black lentils, rice",10,20,sweet
+Mysore pak,"Besan flour, semolina, mung bean, jaggery, coconut, skimmed milk powder, sugar, ghee",5,20,sweet
+Obbattu holige,"Maida flour, turmeric, coconut, chickpeas, jaggery, ghee, cardamom",180,60,sweet
+Palathalikalu,"Rice flour, milk",10,25,sweet
+Poornalu,"Chana dal, jaggery",240,60,sweet
+Pongal,"Rice, jaggery, cashews, ghee",5,20,sweet
+Pootharekulu,"Rice flour, powdered sugar, ghee",10,60,sweet
+Qubani ka meetha,"Apricots, sugar syrup",10,20,sweet
+Sheer korma,"Vermicelli pudding, milk",10,20,sweet
+Unni Appam,"Rice flour, banana, jaggery, coconut",10,20,sweet
+Kajjikaya,"Rice flour, jaggery, coconut",40,15,sweet
+Anarsa,"Rice flour, jaggery, khus-khus seeds",10,50,sweet
+Basundi,"Sugar, milk, nuts",10,35,sweet
+Dhondas,"Cucumber, rava",10,50,sweet
+Doodhpak,"Milk, rice, sugar, dry fruits",10,60,sweet
+Mahim halwa,"Semolina, sugar",10,25,sweet
+Modak,"Rice flour, coconut, jaggery ",10,15,sweet
+Shankarpali,"Sugar, ghee, maida flour, semolina",10,35,sweet
+Shrikhand,"Curd, sugar, saffron, cardamom",10,720,sweet
+Sutar feni,"Maida, sugar, ghee",15,55,sweet
+Maach Jhol,"Fish, potol, tomato, chillies, ginger, garlic",10,40,spicy
+Pork Bharta,"Boiled pork, onions, chillies, ginger and garlic",-1,-1,spicy
+Chak Hao Kheer,"Rice, milk, sugar, cardamom",240,45,sweet
+Galho,"Rice, axone, salt, water, chillies, pork",5,15,spicy
+Aloo gobi,"Cauliflower, potato, garam masala, turmeric, curry leaves",10,20,spicy
+Aloo tikki,"Rice flour, potato, bread crumbs, garam masala, salt",5,20,spicy
+Aloo matar,"Potato, peas, chillies, ginger, garam masala, garlic",5,40,spicy
+Aloo methi,"Potato, fenugreek leaves, chillies, salt, oil",10,40,bitter
+Aloo shimla mirch,"Potato, shimla mirch, garam masala, amchur powder, salt",10,40,spicy
+Bhatura,"Chole, rava, yogurt, plain flour, baking soda",20,20,spicy
+Bhindi masala,"Ladies finger, garam masala, kasuri methi, tomatoes, chili powder",20,30,spicy
+Biryani,"Chicken thighs, basmati rice, star anise, sweet, green chillies",30,120,spicy
+Butter chicken,"Chicken, greek yogurt, cream, garam masala powder, cashew nuts, butter",10,35,spicy
+Chana masala,"Chickpeas, tomato paste, garam masala, ginger, red onion, avocado oil",20,30,spicy
+Chapati,"Whole wheat flour, olive oil, hot water, all purpose flour",10,10,-1
+Chicken razala,"Chicken, dahi, sesame seeds, garam masala powder, cashew nuts, saffron",10,35,spicy
+Chicken Tikka masala,"Naan bread, tomato sauce, skinless chicken breasts, heavy cream, garam masala",10,50,spicy
+Chicken Tikka,"Chicken, whole wheat bread, rice flour, garam masala powder, whole egg",120,45,spicy
+Chole bhature,"Chole, bhatura, garam masala, bay leaf, cinnamon stick",20,30,spicy
+Daal baati churma,"Moong dal, masoor dal, chana dal, wheat flour, almond",10,90,spicy
+Daal puri,"Moong dal, garam masala powder, garlic, green chilli, all purpose flour",30,30,spicy
+Dal makhani ,"Red kidney beans, urad dal, cream, garam masala, chili powder",10,60,sweet
+Dal tadka,"Pigeon peas, garam masala, ginger, red onion, kasuri methi",10,30,spicy
+Dum aloo,"Baby potatoes, garam masala, cashew nuts, kasuri methi, tomatoes",20,50,spicy
+Poha,"Beaten rice flakes, potato, curry leaves, green chilies, lemon juice",20,30,spicy
+Fara,"Chana dal, whole wheat flour, arhar dal, white urad dal, garam masala powder",10,60,spicy
+Kachori,"Moong dal, rava, garam masala, dough, fennel seeds",30,60,spicy
+Kadai paneer,"Cottage cheese, bell peppers, gravy, garam masala, cashew nuts",20,30,spicy
+Kadhi pakoda,"Besan, garam masala powder, gram flour, ginger, curry leaves",10,60,spicy
+Karela bharta,"Bitter gourd, fennel, garam masala powder, chili powder, amchur powder",20,50,bitter
+Khichdi,"Moong dal, green peas, ginger, tomato, green chili",40,20,spicy
+Kofta,"Paneer, potato, cream, corn flour, garam masala",20,40,spicy
+Kulfi falooda,"Rose syrup, falooda sev, mixed nuts, saffron, sugar",45,25,sweet
+Lauki ke kofte,"Bottle gourd, garam masala powder, gram flour, ginger, chillies",20,40,spicy
+Lauki ki subji,"Bottle gourd, coconut oil, garam masala, ginger, green chillies",10,20,spicy
+Litti chokha,"Wheat flour, roasted gram flour, tomato, nigella seeds, chilli",45,60,spicy
+Makki di roti sarson da saag,"Palak, makki atta, mustard green, garam masala, ginger",25,30,spicy
+Misi roti,"Whole wheat flour, chickpea flour, green chilies",30,30,spicy
+Mushroom do pyaza,"Mushroom, malai, garam masala, ginger, capsicum",10,30,spicy
+Mushroom matar,"Canned coconut milk, frozen green peas, wild mushrooms, garam masala, tomatoes",10,30,spicy
+Naan,"Whole wheat flour, honey, butter, garlic",60,30,-1
+Navrattan korma,"Green beans, potatoes, khus khus, low fat, garam masala powder",25,40,spicy
+Palak paneer,"Cottage cheese, palak, cream, garam masala, butter",20,40,spicy
+Paneer butter masala,"Paneer, whipping cream, garam masala, cashew nuts, butter",20,40,spicy
+Paneer tikka masala,"Paneer, greek yogurt, tandoori masala, cream, bell pepper",20,40,spicy
+Pani puri,"Kala chana, mashed potato, boondi, sev, lemon",15,2,spicy
+Panjeeri,"Whole wheat flour, musk melon seeds, poppy seeds, edible gum, semolina",10,25,sweet
+Papad,"Urad dal, sev, lemon juice, chopped tomatoes",5,5,spicy
+Paratha,"Wheat flour, butter, potato, coriander",15,45,spicy
+Pattor,"Arbi ke patte, sesame seeds, gur, bengal gram flour, imli",10,30,spicy
+Pindi chana,"Fennel, tea bags, tomato, kasuri methi, cinnamon",500,120,spicy
+Rajma chaval,"Red kidney beans, garam masala powder, ginger, tomato, mustard oil",15,90,spicy
+Rongi,"Garam masala powder, tomato, kasuri methi, cinnamon, mustard oil",10,30,-1
+Samosa,"Potatoes, green peas, garam masala, ginger, dough",30,30,spicy
+Sattu ki roti,"Sattu, atta, dough, filling, mustard oil",10,20,spicy
+Shahi paneer,"Cottage cheese, malai, garam masala, ginger, tomato",20,40,spicy
+Shahi tukra,"Rose water, milk, white bread slices, saffron, almonds",10,30,sweet
+Vegetable jalfrezi,"Baby corn, french beans, garam masala, ginger, carrot",10,30,spicy
+Tandoori Chicken,"Greek yogurt, garam masala, kasuri methi, marinade, mustard oil",240,30,spicy
+Tandoori Fish Tikka,"Chickpea flour, biryani masala powder, yogurt, fish fillets, green bell pepper",240,30,spicy
+Attu,"Whole wheat flour, arhar dal, ginger, kala jeera, green chilli",150,25,spicy
+Avial,"Raw banana, elephant foot yam, long beans, tindora, urad dal",30,45,spicy
+Bisi bele bath,"Split pigeon peas, chana dal, urad dal, green peas, french beans",30,45,spicy
+Currivepillai sadam ,"Chana dal, urad dal, fresh coconut, sesame seeds, curry leaves",10,20,spicy
+Dosa,"Chana dal, urad dal, whole urad dal, blend rice, rock salt",360,90,spicy
+Idiappam,"Rice flour, hot water, grated coconut",120,30,spicy
+Idli,"Split urad dal, urad dal, idli rice, thick poha, rock salt",360,90,spicy
+Kanji,"Carrot, yellow mustard, red chilli, black salt",10,45,-1
+Kaara kozhambu,"Sesame oil, drumstick, tamarind paste, sambar powder, tomato",-1,-1,spicy
+Keerai kootu,"Moong dal, chana dal, spinach, urad dal, coconut oil",20,30,spicy
+Keerai masiyal,"Urad dal, curry leaves, sugar, mustard seeds, spinach",-1,-1,spicy
+Keerai sadam,"Greens, tomato, mustard seeds, fenugreek seeds",10,20,spicy
+Keerai poriyal,"Amaranth leaves, split urad dal, mustard seeds, grated coconut, red chili",20,30,spicy
+Beef Fry,"Beef, coconut, garam masala, curry leaves, green chilies, chili powder",10,60,spicy
+Kootu,"Chana dal, urad dal, potato, beans, peas",10,15,spicy
+Kos kootu,"Moong dal, chana dal, cabbage, tamarind, curry leaves",10,20,spicy
+Koshambri,"Moong dal, cucumber, curry leaves, green chili, lemon juice",10,20,spicy
+Kothamali sadam,"Chana dal, urad dal, gooseberry, raw rice, curry leaves",10,20,spicy
+Kuzhakkattai,"Sesame oil, raw rice, jaggery, grated coconut",10,90,spicy
+Kuzhambu,"Pearl onions, urad dal, drumsticks, tomato, curry leaves",5,30,spicy
+Masala Dosa,"Chana dal, urad dal, potatoes, idli rice, thick poha",360,90,spicy
+Pachadi,"Coconut oil, cucumber, curd, curry leaves, mustard seeds",10,25,-1
+Paniyaram,"Yogurt, ginger, curry leaves, baking soda, green chilli",10,20,-1
+Papadum,"Lentils, black pepper, vegetable oil",5,5,spicy
+Paravannam,"Raw rice,  jaggery, milk",-1,-1,spicy
+Payasam,"Rice, cashew nuts, milk, raisins, sugar",15,30,sweet
+Paruppu sadam,"Arhar dal, sambar powder, tomato, curry leaves, fennel seeds",10,20,-1
+Pesarattu,"Green moong beans, rice flour",120,20,spicy
+Poriyal,"Chana dal, urad dal, beans, coconut, mustard",-1,-1,spicy
+Puli sadam,"Urad dal, lemon, tamarind, cooked rice, curry leaves",10,20,-1
+Rasam,"Tomato, curry leaves, garlic, mustard seeds, hot water",10,35,spicy
+Puttu,"Brown rice flour, sugar, grated coconut",495,40,-1
+Sambar,"Pigeon peas, eggplant, drumsticks, sambar powder, tamarind",20,45,spicy
+Sandige,"Thin rice flakes, black sesame seeds, curry leaves",120,60,-1
+Sevai,"Sevai, parboiled rice, steamer",120,30,-1
+Thayir sadam,"Urad dal, curd, sesame oil, ginger, curry leaves, mustard seeds",10,20,-1
+Theeyal,"Coconut, whole red beans, masala, sesame oil, tamarind",15,20,-1
+Uttapam,"Chana dal, urad dal, thick poha, tomato, butter",10,20,spicy
+Vada,"Urad dal, ginger, curry leaves, green chilies, black pepper",15,20,spicy
+Chicken Varuval,"Meat curry powder, chicken chunks, ginger, tomato, cinnamon",10,35,spicy
+Upma,"Chana dal, urad dal, ginger, curry leaves, sugar",10,20,spicy
+Amti,"Kala masala, arhar dal, curry leaves, mustard seeds, hot water",10,45,spicy
+Zunka,"Gram flour, mustard, garlic, turmeric, red chilli",10,25,spicy
+Kolim Jawla,"Baingan, fish, coconut oil, fresh coconut, ginger",-1,-1,spicy
+Saath,"Urad dal, potatoes, wheat flour, sooji",20,40,spicy
+Bajri no rotlo,"Wheat flour, pearl millet flour, hot water",10,10,spicy
+Coconut vadi,"Condensed milk, mawa, desiccated coconut, almonds, cashews",20,30,sweet
+Bhakri,"Jowar flour, sesame seeds",20,25,-1
+Bombil fry,"Bombay duck, malvani masala, rice flour, bombay rava, green chilies",-1,-1,spicy
+Chakali,"Rice flour, sesame, plain flour, turmeric, red chilli",10,40,spicy
+Chevdo,"Citric acid, fry, raisins, sugar, chana daal",20,30,spicy
+Chorafali,"Urad dal, bengal gram flour, dried mango, baking soda, black salt",5,15,spicy
+Copra paak,"Condensed milk, nestle cream, coconut ice, red food coloring, desiccated coconut",20,30,-1
+Daal Dhokli,"Whole wheat flour, dal, kokum, gur, bengal gram flour",20,30,spicy
+Kutchi dabeli,"Pav, aloo, peanut, pomegranate, star anise",30,10,spicy
+Dahi vada,"Urad dal, bhuna chana, garam masala, dates, tamarind",30,30,-1
+Dalithoy,"Arhar dal, coconut oil, curry leaves, mustard seeds, red chilli",5,20,-1
+Dhokla,"Rava, coconut, gram flour, mustard, sesame",10,20,spicy
+Dudhi halwa,"Bottle gourd, green, raisins, sugar, clarified butter",15,30,sweet
+Gatta curry,"Yogurt, besan, sauce, garam masala powder, gram flour",10,20,spicy
+Gud papdi,"Wheat flour, jaggery, clarified butter, sliced almonds",10,20,sweet
+Ghooghra,"Dry fruits, semolina, all purpose flour",-1,-1,spicy
+Handwo,"Bottle gourd, chana dal, cabbage, urad dal, toor dal",20,30,spicy
+Halvasan,"Whole wheat rava, chia seed, lemon, edible gum, litre milk",-1,-1,sweet
+Jeera Aloo,"Green chilies, lemon juice, chili powder, boiled potatoes",10,30,spicy
+Kansar,"Wheat flour, cashews, rapeseed oil",10,40,-1
+Keri no ras,"Mango, sugar",10,10,sour
+Khakhra,"Whole wheat flour, low fat, bengal gram flour",20,40,spicy
+Khandvi,"Green chili paste, white sesame seeds, gram flour, curry leaves, green chili",20,45,spicy
+Kombdi vade,"Rice flour, urad dal, wheat flour, gram flour, turmeric",10,25,spicy
+Laapsi,"Cinnamon, jaggery, clarified butter, dry roasted",10,40,spicy
+Koshimbir,"Cucumber, carrot, tomatoes, cilantro",10,10,spicy
+Methi na Gota,"Rava, gram flour, lemon juice, turmeric, fenugreek leaves",15,30,bitter
+Mohanthal,"Rose water, pistachio, badam, bengal gram flour, saffron",5,45,sweet
+Muthiya,"Bottle gourd, whole wheat flour, rava, sesame seeds, bengal gram flour",15,30,bitter
+Patra,"Arbi ke patte, sesame seeds, gur, bengal gram flour, imli",10,40,spicy
+Pav Bhaji,"Pav bhaji masala, gobi, potatoes, green peas, dinner rolls",20,40,spicy
+Puri Bhaji,"Aloo, urad dal, mustard, ginger, curry leaves",10,30,spicy
+Sabudana Khichadi,"Raw peanuts, sabudana, lemon, avocado oil, curry leaves, green chili",70,30,spicy
+Sev khamani,"Khaman, pomegranate, sev, powdered sugar, garlic",20,30,spicy
+Sev tameta,"Sev, ginger, tomato, sugar",20,30,spicy
+Namakpara,"Wheat flour, baking soda, all purpose flour, black pepper, sunflower oil",10,35,spicy
+Sukhdi,"Whole wheat flour, gur, clarified butter",10,20,sweet
+Surnoli,"Rice flakes, yogurt, raw rice, jaggery, grated coconut",60,10,spicy
+Thalipeeth,"Whole wheat flour, rice flour, pearl millet flour, sorghum flour, sesame seeds",25,30,spicy
+Undhiyu,"Sweet potato, surti papdi, baby potatoes, valor papdi, green peas",25,60,spicy
+Veg Kolhapuri,"Gobi, potato, beans, khus khus, coconut",20,30,spicy
+Vindaloo,"Chicken, coconut oil, wine vinegar, ginger, green, cinnamon",10,40,spicy
+Lilva Kachori,"Green garlic chutney, fresh green peas, ginger, lemon juice, plain flour",30,6,spicy
+Mag Dhokli,"Moong beans, jaggery, red chillies, oil, salt",-1,-1,spicy
+Khichu,"Rice flour, sesame seeds, baking soda, peanut oil",5,10,spicy
+Thepla,"Chickpea flour, methi leaves, jowar flour, wheat flour",15,30,spicy
+Farsi Puri,"Semolina, clarified butter, oil, white flour, black pepper",-1,-1,-1
+Khaman,"Yogurt, fresh coconut, sesame seeds, semolina, gram flour",10,20,spicy
+Turiya Patra Vatana sabji,"Ridge gourd, baking soda, sugar, grated coconut, peas",35,40,spicy
+Churma Ladoo,"Whole wheat flour, khus khus, sesame seeds, dry coconut, gur",12,40,sweet
+Cheera Doi,"Rice, mango, curd",-1,-1,sweet
+Gheela Pitha,"Sticky rice, rice flour, jaggery, orange rind",10,30,sweet
+Khar,"Raw papaya, panch phoran masala, nigella seeds, mustard oil, fennel seeds",10,20,-1
+Kumol Sawul,"Rice, eggs, carrot, beetroot",-1,-1,spicy
+Luchi,"Maida, vegetable oil",20,30,-1
+Alu Pitika,"Potatoes, mustard oil, fish, green chillies",5,20,spicy
+Masor tenga,"Ridge gourd, fish, lemon, tomatoes, mustard oil",15,25,spicy
+Bengena Pitika,"Brinjal, onions, salt, sesame seeds, coriander",-1,-1,-1
+Bilahi Maas,"Potatoes, garam masala, tomatoes, mustard oil, bay leaf",10,20,-1
+Black rice,"Forbidden black rice, chicken, olive oil, slivered almonds, garlic powder",-1,-1,-1
+Bora Sawul,"Biryani masala, mixed vegetables, yellow moong daal, whole red, mustard seeds",-1,-1,spicy
+Brown Rice,"Brown rice, soy sauce, olive oil",15,25,-1
+Chingri malai curry,"Coconut milk, lobster, fresh green chilli, ginger, red onion",10,40,spicy
+Goja,"Baking soda, clarified butter, oil, all purpose flour",20,60,sweet
+Hando Guri,"Jaggery, raisins",-1,-1,sweet
+Haq Maas,"Lamb, garam masala powder, curd, turmeric, bay leaf",20,40,spicy
+Chingri Bhape,"Coconut, prawns, curd, mustard seed, green chili",15,30,-1
+Kabiraji,"Fish fillet, besan, lemon, mint, ginger",-1,-1,spicy
+Khorisa,"Fermented bamboo shoot, potato, ginger, green, mustard oil",-1,-1,spicy
+Koldil Chicken,"Banana flower, chicken, green chili, mustard oil, lemon juice",-1,-1,spicy
+Konir Dom,"Aloo, tomatoes, mustard oil, bay leaf, cinnamon stick",-1,-1,spicy
+Koldil Duck,"Rice flour, mutton, banana, gram flour, olive oil, baking powder",-1,-1,spicy
+Masor Koni,"Fish roe, pumpkin flowers, mustard oil, turmeric, tomato",-1,-1,spicy
+Mishti Chholar Dal,"Chana dal, fresh coconut, ginger, cinnamon, raisins",10,30,sweet
+Pakhala,"Curd, cooked rice, curry leaves, dry chilli",-1,-1,-1
+Pani Pitha,"Tea leaves, white sesame seeds, dry coconut, soaked rice",10,20,-1
+Payokh,"Basmati rice, rose water, sugar, clarified butter, cardamom pods",-1,-1,sweet
+Prawn malai curry,"Coconut milk, prawns, garlic, turmeric, sugar",15,50,spicy
+Red Rice,"Red pepper, red onion, butter, watercress, olive oil",-1,-1,-1
+Shukto,"Green beans, bitter gourd, ridge gourd, banana, brinjal",10,20,spicy
+Til Pitha,"Glutinous rice, black sesame seeds, gur",5,30,sweet
+Bebinca,"Coconut milk, egg yolks, clarified butter, all purpose flour",20,60,sweet
+Shufta,"Cottage cheese, dry dates, dried rose petals, pistachio, badam",-1,-1,sweet
+Mawa Bati,"Milk powder, dry fruits, arrowroot powder, all purpose flour",20,45,sweet
+Pinaca,"Brown rice, fennel seeds, grated coconut, black pepper, ginger powder",-1,-1,sweet

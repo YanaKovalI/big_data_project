@@ -4,14 +4,13 @@ import extract_entities
 import json
 import re
 
+# input_table = pd.read_csv(csv_file_table)
+# entities = extract_entities.extract_entities_from_table(input_table)
 
-#as an input should be a csv_file
-def get_entity_info(csv_file_table):
+#as an input should be a csv_file, return a dictionary entities with lists of weights
+def get_entity_info(entities):
     url = "https://www.wikidata.org/w/api.php"
 
-    input_table = pd.read_csv(csv_file_table)
-
-    entities = extract_entities.extract_entities_from_table(input_table)
     results = []
 
     for entity in entities:
@@ -24,9 +23,9 @@ def get_entity_info(csv_file_table):
         data =  requests.get(url, params = params)
         results.append(data.json())
     # just print  json results for each entity
-    # for result in results:
-    #     print(f"NEW ENTITY {result}\n\n\n")
-    #     print("\n\n")
+    #for result in results:
+       # print(f"NEW ENTITY {result}\n\n\n")
+        #print("\n\n")
 
     information = {}  # Initialize the information dictionary "entity" : [list of labels]
 
@@ -41,8 +40,8 @@ def get_entity_info(csv_file_table):
     return information
 
 
-def get_weighted_labels(csv_file_table):
-    information = get_entity_info(csv_file_table)
+def get_weighted_labels(entities):
+    information = get_entity_info(entities)
     # Compute weights for labels
     label_counts = {}  # Dictionary to store the count of occurrences for each label
     entity_occurrences = {}  # Dictionary to track if a label has occurred in an entity
@@ -70,11 +69,12 @@ def get_weighted_labels(csv_file_table):
         # Store the labels and weights for each entity
         information[entity] = labels_weights
     # Print the resulting information dictionary
-    return json.dumps(information, indent=2)
+    #return json.dumps(information, indent=2)
+    return information
 
 
-def get_domain_size_labels(csv_file_table):
-    information = get_entity_info(csv_file_table)
+def get_domain_size_labels(entities):
+    information = get_entity_info(entities)
     label_counts = {}  # Dictionary to store the count of occurrences for each label
     entity_occurrences = {}  # Dictionary to track if a label has occurred in an entity
     #compute domain size for labels

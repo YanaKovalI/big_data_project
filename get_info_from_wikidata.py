@@ -3,6 +3,7 @@ import pandas as pd
 import extract_entities
 import json
 import re
+import label_search_wikidata
 
 # input_table = pd.read_csv(csv_file_table)
 # entities = extract_entities.extract_entities_from_table(input_table)
@@ -38,67 +39,3 @@ def get_entity_info(entities):
         # Store the labels list for each entity
         information[entity] = labels
     return information
-
-
-def get_weighted_labels(entities):
-    information = get_entity_info(entities)
-    # Compute weights for labels
-    label_counts = {}  # Dictionary to store the count of occurrences for each label
-    entity_occurrences = {}  # Dictionary to track if a label has occurred in an entity
-
-    for labels_list in information.values():
-        labels_set = set()  # Use a set to keep track of labels within an entity without duplication
-        for label in labels_list:
-            if label:
-                # Remove special characters and convert to lowercase for better matching
-                label_new = re.sub(r'[^a-zA-Z0-9\s]', '', label.lower())
-
-                # Check if the label has not occurred in this entity before
-                if label_new not in labels_set:
-                    label_counts[label_new] = label_counts.get(label_new, 0) + 1
-                    labels_set.add(label_new)
-
-    # Calculate weights based on the inverse of label counts
-    for entity, labels_list in information.items():
-        labels_weights = {}  # Dictionary to store labels and their corresponding weights
-        for label in labels_list:
-            if label:
-                label_key = re.sub(r'[^a-zA-Z0-9\s]', '', label.lower())
-                weight = 1/ label_counts[label_key]
-                labels_weights[label_key] = weight
-        # Store the labels and weights for each entity
-        information[entity] = labels_weights
-    # Print the resulting information dictionary
-    #return json.dumps(information, indent=2)
-    return information
-
-
-def get_domain_size_labels(entities):
-    information = get_entity_info(entities)
-    label_counts = {}  # Dictionary to store the count of occurrences for each label
-    entity_occurrences = {}  # Dictionary to track if a label has occurred in an entity
-    #compute domain size for labels
-    for labels_list in information.values():
-        labels_set = set()  # Use a set to keep track of labels within an entity without duplication
-        for label in labels_list:
-            if label:
-                # Remove special characters and convert to lowercase for better matching
-                label_new = re.sub(r'[^a-zA-Z0-9\s]', '', label.lower())
-
-                # Check if the label has not occurred in this entity before
-                if label_new not in labels_set:
-                    label_counts[label_new] = label_counts.get(label_new, 0) + 1
-                    labels_set.add(label_new)
-
-    # Calculate weights based on the inverse of label counts
-    for entity, labels_list in information.items():
-        labels_domains = {}  # Dictionary to store labels and their corresponding weights
-        for label in labels_list:
-            if label:
-                label_key = re.sub(r'[^a-zA-Z0-9\s]', '', label.lower())
-                domain = label_counts[label_key]
-                labels_domains[label_key] = domain
-        # Store the labels and weights for each entity
-        information[entity] = labels_domains
-    # Print the resulting information dictionary
-    return json.dumps(information, indent=2)

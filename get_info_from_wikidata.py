@@ -22,10 +22,10 @@ def get_entity_info(entities):
     }
         data =  requests.get(url, params = params)
         results.append(data.json())
-    # just print  json results for each entity
-    #for result in results:
-       # print(f"NEW ENTITY {result}\n\n\n")
-        #print("\n\n")
+    #just print  json results for each entity
+    # for result in results:
+    #    print(f"NEW ENTITY {result}\n\n\n")
+    #    print("\n\n")
 
     information = {}  # Initialize the information dictionary "entity" : [list of labels]
 

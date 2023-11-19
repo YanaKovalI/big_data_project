@@ -16,15 +16,15 @@ def main():
     print("RESULT:")
     print("Average relatedness between " + str(table) + " and " + str(table) + ": " + str(r))
 
-main()
+#main()
 
 def wikidata_main():
     table = "countries_database.csv"
     entities = extract_entities.extract_entities_from_table(table)
-    wikidata_labels =  get_info_from_wikidata.get_weighted_labels(entities)
-    r = relatedness.get_average_pair(wikidata_labels,wikidata_labels)
-    print("\n")
-    print("RESULT:")
-    print("Average relatedness between " + str(table) + " and " + str(table) + ": " + str(r))
+    wikidata_labels =  get_info_from_wikidata.get_entity_info(entities)
+    # r = relatedness.get_average_pair(wikidata_labels,wikidata_labels)
+    # print("\n")
+    # print("RESULT:")
+    # print("Average relatedness between " + str(table) + " and " + str(table) + ": " + str(r))
     
-# wikidata_main()    
+wikidata_main()    

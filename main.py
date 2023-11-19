@@ -22,12 +22,11 @@ def wikidata_main():
     table = "countries_database.csv"
     entities = extract_entities.extract_entities_from_table(table)
     information = get_info_from_wikidata.get_entity_info(entities)
-    dictionary = {'Germany': ['Berlin', 'berl in', 'germany'], 'China' : ['china', 'republic', 'China']}
-    result = label_search_wikidata.get_domain_size_of_labels(dictionary)
-    print(result)
-    # r = relatedness.get_average_pair(wikidata_labels,wikidata_labels)
-    # print("\n")
-    # print("RESULT:")
-    # print("Average relatedness between " + str(table) + " and " + str(table) + ": " + str(r))
-    
-wikidata_main()    
+    ##look for requests for each entity
+    # for entity, label_list in information.items():
+    #     for label in label_list:
+    #         res = label_search_wikidata.get_number_of_entities_for_label(label)
+    #         print(f"for {label} RESULT: {res} \n\n\n")
+    result = label_search_wikidata.get_domain_size_of_labels(information)
+    print(result)  
+wikidata_main()

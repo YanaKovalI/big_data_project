@@ -34,8 +34,8 @@ def get_entity_info(entities):
         labels = []  # Initialize a list to store labels for each entity
         for item in result.get("search", []):
             label = item.get("display", {}).get("label", {}).get("value")
-            labels.append(label)
-
+            if label not in labels:
+                labels.append(label)
         # Store the labels list for each entity
         information[entity] = labels
     return information

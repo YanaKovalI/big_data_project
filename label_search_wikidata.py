@@ -1,7 +1,7 @@
 import requests
 
 class SPARQLQueryDispatcher:
-    def __init__(self, endpoint):
+    def _init_(self, endpoint):
         self.endpoint = endpoint
 
     def query(self, sparql_query):
@@ -32,9 +32,13 @@ def get_number_of_entities_for_label(label):
 
     # Execute the SPARQL query
     query_results = query_dispatcher.query(sparql_query)
-    items = query_results.get("results", {}).get("bindings", {})
-    number_of_entities = len(items)
+    if query_results is None:
+        number_of_entities = 1
+    else:    
+        items = query_results.get("results", {}).get("bindings", {})
+        number_of_entities = len(items)
     return number_of_entities
+    
 
 def get_domain_size_of_labels(information):
     for entity, label_list in information.items():

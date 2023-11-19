@@ -43,9 +43,3 @@ def get_domain_size_of_labels(information):
             label_domain[label] = get_number_of_entities_for_label(label)
         information[entity] = label_domain   
     return information
-
-
-
-
-
-

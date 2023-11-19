@@ -22,7 +22,8 @@ def wikidata_main():
     table = "countries_database.csv"
     entities = extract_entities.extract_entities_from_table(table)
     information = get_info_from_wikidata.get_entity_info(entities)
-    result = label_search_wikidata.get_number_of_entities_for_label(information)
+    dictionary = {'Germany': ['Berlin', 'berl in', 'germany'], 'China' : ['china', 'republic', 'China']}
+    result = label_search_wikidata.get_domain_size_of_labels(dictionary)
     print(result)
     # r = relatedness.get_average_pair(wikidata_labels,wikidata_labels)
     # print("\n")

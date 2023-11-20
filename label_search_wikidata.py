@@ -1,8 +1,9 @@
 import requests
 
 class SPARQLQueryDispatcher:
-    def _init_(self, endpoint):
+    def __init__(self, endpoint):
         self.endpoint = endpoint
+        
 
     def query(self, sparql_query):
         full_url = f"{self.endpoint}?query={requests.utils.quote(sparql_query)}"

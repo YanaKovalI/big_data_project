@@ -16,7 +16,8 @@ def get_labels(entity):
     return {}
 
 
-def query_webisa(entity, confidence=0.75):
+def query_webisa(entity, confidence=0.1):
+    entity = entity.replace(" ", "_")
     sparql_endpoint = "http://webisa.webdatacommons.org/sparql"
     sparql_query = """PREFIX isa: <http://webisa.webdatacommons.org/concept/>
     PREFIX isaont: <http://webisa.webdatacommons.org/ontology#> 
@@ -31,6 +32,19 @@ def query_webisa(entity, confidence=0.75):
         FILTER(?confidence >= """ + str(confidence) + """)
     }
     ORDER BY DESC(?confidence)"""
+    sparql_query2 = """PREFIX isa: <http://webisa.webdatacommons.org/concept/>
+    PREFIX isaont: <http://webisa.webdatacommons.org/ontology#> 
+    SELECT ?hypernymLabel ?hyponymLabel ?confidence
+    WHERE{
+        GRAPH ?g {
+            isa:""" + entity.lower() + """_ skos:broader ?hyponym.
+        }
+        isa:""" + entity.lower() + """_ rdfs:label ?hypernymLabel.
+        ?hyponym rdfs:label ?hyponymLabel.
+        ?g isaont:hasConfidence ?confidence.
+        FILTER(?confidence >= """ + str(confidence) + """)
+    }
+    ORDER BY DESC(?confidence)"""
 
     sparql = SPARQLWrapper(endpoint=sparql_endpoint, returnFormat=JSON)
     sparql.setQuery(sparql_query)
@@ -38,6 +52,19 @@ def query_webisa(entity, confidence=0.75):
     try:
         ret = sparql.queryAndConvert()
 
+        if not ret["results"]["bindings"]:
+            sparql.setQuery(sparql_query2)
+            ret = sparql.queryAndConvert()
+            return ret["results"]["bindings"]
+
+        return ret["results"]["bindings"]
+
+    except Exception as e:
+        print(e)
+
+    try:
+        sparql.setQuery(sparql_query2)
+        ret = sparql.queryAndConvert()
         return ret["results"]["bindings"]
 
     except Exception as e:

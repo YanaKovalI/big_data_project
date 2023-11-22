@@ -30,16 +30,13 @@ def wikidata_main():
     table = "countries_database.csv"
     entities = extract_entities.extract_entities_from_table(table)
     information = get_info_from_wikidata.get_entity_info(entities)
-    # look for requests for each entity
-    # for entity, label_list in information.items():
-    #     for label in label_list:
-    #         res = label_search_wikidata.get_number_of_entities_for_label(label)
-    #         print(f"for label {label} RESULT: {res} \n\n\n")
-    result = label_search_wikidata.get_domain_size_of_labels(information)
-    print(result)
-
-
-# wikidata_main()
+    result = label_search_wikidata.get_weighted_labels(information)
+    r = relatedness.get_average_pair(result, result)
+    print("\n")
+    print("RESULT:")
+    print("Average relatedness between " + str(table) + " and " + str(table) + ": " + str(r))
+    
+#wikidata_main()
 
 def dbpedia_main():
     # table1 = "data/zoo_data/zoo2.csv"
@@ -77,5 +74,6 @@ def weighted_dbpedia_main():
     print("\n")
     print("RESULT after {0} of calculation:".format(datetime.datetime.now().replace(microsecond=0) - start_time))
     print("Average relatedness between " + str(table1) + " and " + str(table2) + ": " + str(r))
+
 
 weighted_dbpedia_main()

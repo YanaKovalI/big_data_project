@@ -1,5 +1,6 @@
 import extract_entities
 import get_info_from_wikidata
+import dbpedia_test
 import pandas as pd
 import requests
 import query_webisa
@@ -28,5 +29,16 @@ def wikidata_main():
     #         res = label_search_wikidata.get_number_of_entities_for_label(label)
     #         print(f"for label {label} RESULT: {res} \n\n\n")
     result = label_search_wikidata.get_domain_size_of_labels(information)
-    print(result)  
-wikidata_main()
+    print(result)
+    
+def dbpedia_main():
+    table = "countries_database.csv"
+    entities = extract_entities.extract_entities_from_table(table)
+    dbpedia_labels = dbpedia_test.get_labels_for_set(entities)
+    print(dbpedia_labels)
+    r = relatedness.get_average_pair(dbpedia_labels, dbpedia_labels)
+    print("\n")
+    print("RESULT:")
+    print("Average relatedness between " + str(table) + " and " + str(table) + ": " + str(r))
+
+dbpedia_main()

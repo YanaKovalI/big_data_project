@@ -13,7 +13,7 @@ class SPARQLQueryDispatcher:
         if response.status_code == 200:
             return response.json()
         else:
-            print(f"Request failed with status code: {response.status_code}")
+            #print(f"Request failed with status code: {response.status_code}")
             return None
 
 

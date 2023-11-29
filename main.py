@@ -28,18 +28,23 @@ def webisa_main():
 
 def wikidata_main():
     table = "countries_database.csv"
+    table2 = "countries_database.csv"
     entities = extract_entities.extract_entities_from_table(table)
+    entities2 = extract_entities.extract_entities_from_table(table2)
     information = get_info_from_wikidata.get_entity_info(entities)
+    information2 = get_info_from_wikidata.get_entity_info(entities2)
     result = label_search_wikidata.get_weighted_labels(information)
-    r = relatedness.get_average_pair(result, result)
+    result2 = label_search_wikidata.get_weighted_labels(information2)
+    r = relatedness.get_average_pair(result, result2)
+    relatedness_between_sets = relatedness.get_relatedness_sets(result,result2)
     print("\n")
     print("RESULT:")
-    print("Average relatedness between " + str(table) + " and " + str(table) + ": " + str(r))
+    print("Average relatedness between " + str(table) + " and " + str(table2) + ": " + str(relatedness_between_sets))
     
-#wikidata_main()
+wikidata_main()
 
 def dbpedia_main():
-    # table1 = "data/zoo_data/zoo2.csv"
+    # table1 = "data/zoo_data/zoo2.csv"s
     # table2 = "data/zoo_data/zoo3.csv"
     table1 = "countries_database.csv"
     table2 = "countries_database.csv"
@@ -76,4 +81,4 @@ def weighted_dbpedia_main():
     print("Average relatedness between " + str(table1) + " and " + str(table2) + ": " + str(r))
 
 
-weighted_dbpedia_main()
+#weighted_dbpedia_main()

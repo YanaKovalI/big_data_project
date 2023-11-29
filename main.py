@@ -3,8 +3,6 @@ import extract_entities
 import get_info_from_wikidata
 import dbpedia_test
 import datetime
-import pandas as pd
-import requests
 import query_webisa
 import relatedness
 import label_search_wikidata
@@ -41,7 +39,7 @@ def wikidata_main():
     print("RESULT:")
     print("Average relatedness between " + str(table) + " and " + str(table2) + ": " + str(relatedness_between_sets))
     
-wikidata_main()
+# wikidata_main()
 
 def dbpedia_main():
     # table1 = "data/zoo_data/zoo2.csv"s
@@ -65,20 +63,22 @@ def dbpedia_main():
 
 def weighted_dbpedia_main():
     start_time = datetime.datetime.now().replace(microsecond=0)
-    table1 = "data/zoo_data/zoo2.csv"
-    table2 = "data/zoo_data/zoo3.csv"
-    # table1 = "countries_database.csv"
-    # table2 = "countries_database.csv"
+    # table1 = "data/zoo_data/zoo2.csv"
+    # table2 = "data/zoo_data/zoo3.csv"
+    table1 = "countries_database.csv"
+    table2 = "countries_database.csv"
     entities1 = extract_entities.extract_entities_from_table(table1)
     entities2 = extract_entities.extract_entities_from_table(table2)
     dbpedia_labels1 = dbpedia.get_weighted_labels(entities1)
     dbpedia_labels2 = dbpedia.get_weighted_labels(entities2)
     print(dbpedia_labels1)
     print(dbpedia_labels2)
-    r = relatedness.get_average_pair(dbpedia_labels1, dbpedia_labels2)
+    # r = relatedness.get_average_pair(dbpedia_labels1, dbpedia_labels2)
+    r = relatedness.get_set_relatedness(dbpedia_labels1, dbpedia_labels2)
+    r2 = relatedness.get_relatedness_sets(dbpedia_labels1, dbpedia_labels2)
     print("\n")
     print("RESULT after {0} of calculation:".format(datetime.datetime.now().replace(microsecond=0) - start_time))
     print("Average relatedness between " + str(table1) + " and " + str(table2) + ": " + str(r))
 
 
-#weighted_dbpedia_main()
+weighted_dbpedia_main()

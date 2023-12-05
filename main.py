@@ -7,6 +7,7 @@ import query_webisa
 import relatedness
 import label_search_wikidata
 from label_search_wikidata import SPARQLQueryDispatcher
+import json
 
 
 def webisa_main():
@@ -26,12 +27,19 @@ def webisa_main():
 
 def wikidata_main():
     start_time = datetime.datetime.now().replace(microsecond=0)
+    stored_results = 'sparql_queries_results.json'
     table = "countries_database.csv"
     table2 = "countries_database.csv"
     entities = extract_entities.extract_entities_from_table(table)
     entities2 = extract_entities.extract_entities_from_table(table2)
     information = get_info_from_wikidata.get_entity_info(entities)
     information2 = get_info_from_wikidata.get_entity_info(entities2)
+    data_list =  []
+    data_list.append(information)
+    data_list.append(information2)
+    # Save all dictionaries to a single JSON file
+    with open('sparql_queries_results.json', 'w') as json_file:
+        json.dump(data_list, json_file, indent=4)
     result = label_search_wikidata.get_weighted_labels(information)
     result2 = label_search_wikidata.get_weighted_labels(information2)
     r = relatedness.get_average_pair(result, result2)

@@ -43,7 +43,6 @@ def get_weighted_labels_in_chunks(labels):
         weighted_labels = weighted_labels | chunk
     return weighted_labels
 
-
 def get_labels(entity, limit):
     entity = entity.replace(" ", "_")
     entity = entity.capitalize()

@@ -2,20 +2,24 @@ import pandas as pd
 import spacy
 
 
-
-#extract entities from the first/second column
+# extract entities from the first/second column
 def extract_entities_from_table(input_table):
-    table = pd.read_csv(input_table)
-    # Check if the first column is named 'id'
-    if 'id' in table.columns[0].lower():
-        # If it's an "id" column, return entities from the second column
-        return table.iloc[:, 1].tolist()
-    else:
-        # Extract entities from the first column
-        entities = table.iloc[:, 0].tolist()
-        return entities
+    try:
+        table = pd.read_csv(input_table)
+        # Check if the first column is named 'id'
+        if 'id' in table.columns[0].lower():
+            # If it's an "id" column, return entities from the second column
+            return table.iloc[:, 1].tolist()
+        else:
+            # Extract entities from the first column
+            entities = table.iloc[:, 0].tolist()
+            return entities
 
-#extract entities using nlp
+    except Exception as e:
+        print(str(e) + "at table " + str(input_table))
+
+
+# extract entities using nlp
 def extract_entities_from_table_with_nlp(input_table):
     table = pd.read_csv(input_table)
     # Load the spaCy model 
@@ -31,13 +35,11 @@ def extract_entities_from_table_with_nlp(input_table):
             doc = nlp(str(cell))
             # Extract entities from the document
             for ent in doc.ents:
-                if ent.label_ != "CARDINAL": 
+                if ent.label_ != "CARDINAL":
                     entities.append(ent.text)
     return entities
-
 
 # extracted_entities = extract_entities_from_table("contries_database.csv")
 # extracted_entities_nlp = extract_entities_from_table_with_nlp("contries_database.scv") 
 
 # print(extracted_entities)
-

@@ -1,3 +1,4 @@
 # exclude database files from git
 dataset/*
 __pycache__/*
+__pycache__

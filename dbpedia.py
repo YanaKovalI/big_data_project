@@ -1,3 +1,5 @@
+import json
+
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 cache = dict()
@@ -28,7 +30,22 @@ def get_weighted_labels(entities, limit=99999):
         print("Weighted labels for {0}: ".format(entity))
         print(weighted_labels)
         entity_count += 1
+    with open('dbpedia_makeshift_db.json', 'w') as json_file:
+        json.dump(labels, json_file, indent=4)
     return labels
+
+
+def get_labels(entity, limit):
+    # json_dict = get_json_dict()
+    labels = get_labels_by_query(entity, limit)
+    return labels
+
+
+def get_json_dict():
+    json_file = open('dbpedia_makeshift_db.json')
+    json_str = json_file.read()
+    json_data = json.loads(json_str)[0]
+    return json_data
 
 
 def get_weighted_labels_in_chunks(labels):
@@ -44,9 +61,8 @@ def get_weighted_labels_in_chunks(labels):
     return weighted_labels
 
 
-def get_labels(entity, limit):
+def get_labels_by_query(entity, limit):
     entity = entity.replace(" ", "_")
-    entity = entity.capitalize()
     sparql_endpoint = "https://dbpedia.org/sparql"
     sparql_query = """SELECT DISTINCT ?relation ?relatedEntityLabel
         WHERE {{

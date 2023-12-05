@@ -13,11 +13,20 @@ def extract_entities_from_table(input_table):
         else:
             # Extract entities from the first column
             entities = table.iloc[:, 0].tolist()
+            entities = cleanup_entitites(entities)
             return entities
 
     except Exception as e:
         print(str(e) + "at table " + str(input_table))
 
+
+def cleanup_entitites(entities: list):
+    new_entities = []
+    for entity in entities:
+        new_entity = entity.lower()
+        new_entity = new_entity.title()
+        new_entities.append(new_entity)
+    return new_entities
 
 # extract entities using nlp
 def extract_entities_from_table_with_nlp(input_table):

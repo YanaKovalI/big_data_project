@@ -25,6 +25,7 @@ def webisa_main():
 # webisa_main()
 
 def wikidata_main():
+    start_time = datetime.datetime.now().replace(microsecond=0)
     table = "countries_database.csv"
     table2 = "countries_database.csv"
     entities = extract_entities.extract_entities_from_table(table)
@@ -36,10 +37,10 @@ def wikidata_main():
     r = relatedness.get_average_pair(result, result2)
     relatedness_between_sets = relatedness.get_relatedness_sets(result,result2)
     print("\n")
-    print("RESULT:")
+    print("RESULT after {0} of calculation:".format(datetime.datetime.now().replace(microsecond=0) - start_time))
     print("Average relatedness between " + str(table) + " and " + str(table2) + ": " + str(relatedness_between_sets))
     
-# wikidata_main()
+wikidata_main()
 
 def dbpedia_main():
     # table1 = "data/zoo_data/zoo2.csv"s
@@ -111,4 +112,4 @@ def wiki_plus_dbpedia():
     print("RESULT after {0} of calculation:".format(datetime.datetime.now().replace(microsecond=0) - start_time))
     print("Average relatedness between " + str(table1) + " and " + str(table2) + ": " + str(r2))
 
-wiki_plus_dbpedia()
+#wiki_plus_dbpedia()

@@ -1,80 +1,80 @@
 [
     {
-        "Germany": [
-            "Germany",
-            "German Empire",
-            "Weimar Republic",
-            "German Reich",
-            "Burg Drachenfels",
-            "Germany in the Eurovision Song Contest 1983"
-        ],
-        "China": [
-            "China",
-            "porcelain",
-            "1125 China",
-            "Tianxia"
-        ],
-        "South Korea": [
-            "South Korea",
-            "South Korea at the 1954 Asian Games",
-            "South Korea national football team",
-            "won",
-            "President of South Korea",
-            "Republic of Korea Navy",
-            "South Korea national under-20 football team"
-        ],
-        "France": [
-            "France",
-            "France national association football team",
-            "Kingdom of France",
-            "French Third Republic",
-            "French Fifth Republic",
-            "Bourbon Restoration in France"
-        ],
-        "Ghana": [
-            "Ghana",
-            "Dominion of Ghana",
-            "Krishna",
-            "g\u0127ana"
-        ]
+        "Germany": {
+            "Germany": 0.037037037037037035,
+            "German Empire": 0.5,
+            "Weimar Republic": 1.0,
+            "German Reich": 1.0,
+            "Burg Drachenfels": 1.0,
+            "Germany in the Eurovision Song Contest 1983": 1.0
+        },
+        "China": {
+            "China": 0.012048192771084338,
+            "porcelain": 1.0,
+            "1125 China": 1.0,
+            "Tianxia": 1.0
+        },
+        "South Korea": {
+            "South Korea": 1.0,
+            "South Korea at the 1954 Asian Games": 1.0,
+            "South Korea national football team": 1.0,
+            "won": 0.3333333333333333,
+            "President of South Korea": 1.0,
+            "Republic of Korea Navy": 1.0,
+            "South Korea national under-20 football team": 1.0
+        },
+        "France": {
+            "France": 1.0,
+            "France national association football team": 1.0,
+            "Kingdom of France": 1.0,
+            "French Third Republic": 1.0,
+            "French Fifth Republic": 1.0,
+            "Bourbon Restoration in France": 1.0
+        },
+        "Ghana": {
+            "Ghana": 1.0,
+            "Dominion of Ghana": 1.0,
+            "Krishna": 1.0,
+            "g\u0127ana": 1.0
+        }
     },
     {
-        "Germany": [
-            "Germany",
-            "German Empire",
-            "Weimar Republic",
-            "German Reich",
-            "Burg Drachenfels",
-            "Germany in the Eurovision Song Contest 1983"
-        ],
-        "China": [
-            "China",
-            "porcelain",
-            "1125 China",
-            "Tianxia"
-        ],
-        "South Korea": [
-            "South Korea",
-            "South Korea at the 1954 Asian Games",
-            "South Korea national football team",
-            "won",
-            "President of South Korea",
-            "Republic of Korea Navy",
-            "South Korea national under-20 football team"
-        ],
-        "France": [
-            "France",
-            "France national association football team",
-            "Kingdom of France",
-            "French Third Republic",
-            "French Fifth Republic",
-            "Bourbon Restoration in France"
-        ],
-        "Ghana": [
-            "Ghana",
-            "Dominion of Ghana",
-            "Krishna",
-            "g\u0127ana"
-        ]
+        "Germany": {
+            "Germany": 0.037037037037037035,
+            "German Empire": 0.5,
+            "Weimar Republic": 1.0,
+            "German Reich": 1.0,
+            "Burg Drachenfels": 1.0,
+            "Germany in the Eurovision Song Contest 1983": 1.0
+        },
+        "China": {
+            "China": 0.012048192771084338,
+            "porcelain": 1.0,
+            "1125 China": 1.0,
+            "Tianxia": 1.0
+        },
+        "South Korea": {
+            "South Korea": 0.14285714285714285,
+            "South Korea at the 1954 Asian Games": 1.0,
+            "South Korea national football team": 1.0,
+            "won": 0.3333333333333333,
+            "President of South Korea": 1.0,
+            "Republic of Korea Navy": 1.0,
+            "South Korea national under-20 football team": 1.0
+        },
+        "France": {
+            "France": 0.01098901098901099,
+            "France national association football team": 1.0,
+            "Kingdom of France": 0.5,
+            "French Third Republic": 1.0,
+            "French Fifth Republic": 1.0,
+            "Bourbon Restoration in France": 1.0
+        },
+        "Ghana": {
+            "Ghana": 0.125,
+            "Dominion of Ghana": 1.0,
+            "Krishna": 0.027777777777777776,
+            "g\u0127ana": 1.0
+        }
     }
 ]

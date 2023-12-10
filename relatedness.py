@@ -27,6 +27,8 @@ def get_average_pair(label_set1: dict, label_set2: dict) -> float:
     r = get_relatedness(label_set1, label_set2)
     count1 = len(label_set1)
     count2 = len(label_set2)
+    if count2 * count2 == 0:
+        return 0
     return (1 / (count1 * count2)) * r
 
 
@@ -49,7 +51,8 @@ def get_weighted_entity_set(label_set: dict) -> dict:
                 weighted_entity_set[label] = labels[label]
                 label_count[label] = 1
     for label in weighted_entity_set.keys():
-        weighted_entity_set[label] /= label_count[label]
+        # weighted_entity_set[label] /= label_count[label]
+        weighted_entity_set[label] /= len(label_set)
     return weighted_entity_set
 
 

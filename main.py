@@ -29,8 +29,8 @@ def webisa_main():
 def wikidata_main():
     start_time = datetime.datetime.now().replace(microsecond=0)
     stored_results = 'sparql_queries_results.json'
-    table1 = "countries_database.csv"
-    table2 = "countries_database.csv"
+    table1 = "data/zoo_data/zoo2.csv"
+    table2 = "data/zoo_data/zoo3.csv"
     entities1 = extract_entities.extract_entities_from_table(table1)
     entities2 = extract_entities.extract_entities_from_table(table2)
     # check if we have already query results for some entities
@@ -67,31 +67,61 @@ def wikidata_main():
 
     entities_in_data_1, entities_not_in_data_1 = check_entities(entities1, data)
     entities_in_data_2, entities_not_in_data_2 = check_entities(entities2, data)
-    data_list =  []
-    if len(entities_not_in_data_1) > 0:        
+    data_list =  [] #list of new query results for entities
+
+    if len(entities_not_in_data_1) > 0 & len(entities_in_data_1) > 0:        
         information1 = get_info_from_wikidata.get_entity_info(entities_not_in_data_1)
         result1 = label_search_wikidata.get_weighted_labels(information1)
         data_list.append(result1)
-        print(f"Entities in data: {entities_in_data_1}, entities not in data, that was queries : {result1}")
+        print(f"Entities in data: {entities_in_data_1}, entities not in data, that were queried : {result1}")
         #then we need to merge finded entities labels and not founded entitites labels results
-        combined1 = {**entities_in_data_1, **result1} 
-    if len(entities_not_in_data_2) > 0:    
+        info1 = {**entities_in_data_1, **result1} 
+    if len(entities_not_in_data_1) > 0 & len(entities_in_data_1) == 0:        
+        information1 = get_info_from_wikidata.get_entity_info(entities_not_in_data_1)
+        result1 = label_search_wikidata.get_weighted_labels(information1)
+        data_list.append(result1)
+        print(f"Entities in data: {entities_in_data_1}, entities not in data, that were queried : {result1}")
+        #then we need to merge finded entities labels and not founded entitites labels results
+        info1 = result1.copy()
+    if len(entities_not_in_data_1) == 0:        
+        print(f"Entities in data: {entities_in_data_1},  no entities not in data, that were queried")
+        #then we need to merge finded entities labels and not founded entitites labels results
+        info1 = entities_in_data_1.copy()
+
+    if len(entities_not_in_data_2) > 0 & len(entities_in_data_2) > 0:    
         information2 = get_info_from_wikidata.get_entity_info(entities_not_in_data_2)
         result2 = label_search_wikidata.get_weighted_labels(information2)
         data_list.append(result2)
-        print(f"Entities in data: {entities_in_data_2}, entities not in data, that was queries : {result2}")
+        print(f"Entities in data: {entities_in_data_2}, entities not in data, that were queried : {result2}")
         #then we need to merge finded entities labels and not founded entitites labels results
-        combined2 = {**entities_in_data_2, **result2} 
+        info2 = result2.copy() 
+    if len(entities_not_in_data_2) > 0 & len(entities_in_data_2) == 0:    
+        information2 = get_info_from_wikidata.get_entity_info(entities_not_in_data_2)
+        result2 = label_search_wikidata.get_weighted_labels(information2)
+        data_list.append(result2)
+        print(f"Entities in data: {entities_in_data_2}, entities not in data, that were queried : {result2}")
+        #then we need to merge finded entities labels and not founded entitites labels results
+        info2 = {**entities_in_data_2, **result2}
+    if len(entities_not_in_data_2) == 0:        
+        print(f"Entities in data: {entities_in_data_2},  no entities not in data, that were queried")
+        #then we need to merge finded entities labels and not founded entitites labels results
+        info2 = entities_in_data_2.copy()        
     
     # Save all dictionaries to a single JSON file
-    # Open the file in append mode ('a')
+    # Open the file in append mode ('r')
     # Read existing data from the file if it exists
     existing_data = []
     try:
         with open(stored_results, 'r') as json_file:
-            existing_data = json.load(json_file)
+            file_content = json_file.read()
+            if file_content.strip():
+                existing_data = json.loads(file_content)
+            else:
+                existing_data = []        
     except FileNotFoundError:
-        pass  # File doesn't exist yet, so no existing data
+        print("File not found.")
+    except json.JSONDecodeError:
+        print("Invalid JSON data.")
 
     # Merge existing data with new data
     merged_data = existing_data + data_list
@@ -100,27 +130,14 @@ def wikidata_main():
     with open(stored_results, 'w') as json_file:
         json.dump(merged_data, json_file, indent=4)
 
-
-    if len(entities_not_in_data_1) > 0 & len(entities_not_in_data_2) > 0:
-        r = relatedness.get_average_pair(combined1, combined2)   
-        relatedness_between_sets = relatedness.get_relatedness_sets(combined1, combined2)
-    if len(entities_not_in_data_1) > 0 & len(entities_not_in_data_2) == 0:
-        r = relatedness.get_average_pair(combined1, entities_in_data_2)   
-        relatedness_between_sets = relatedness.get_relatedness_sets(combined1, entities_in_data_2)
-    if len(entities_not_in_data_1) == 0 & len(entities_not_in_data_2) > 0:
-        r = relatedness.get_average_pair(entities_in_data_1, combined2)   
-        relatedness_between_sets = relatedness.get_relatedness_sets(entities_in_data_1, combined2)
-    if len(entities_not_in_data_1) == 0 & len(entities_not_in_data_2) == 0:
-        #print(f"\n WE CALCULATE RELATEDNESS BETWEEN {entities_in_data_1} AND {entities_in_data_2}")
-        r = relatedness.get_average_pair(entities_in_data_1, entities_in_data_2)   
-        relatedness_between_sets = relatedness.get_relatedness_sets(entities_in_data_1, entities_in_data_2)
-    
+    r = relatedness.get_average_pair(info1, info2)   
+    relatedness_between_sets = relatedness.get_relatedness_sets(info1, info2)
     print("\n")
     print("RESULT after {0} of calculation:".format(datetime.datetime.now().replace(microsecond=0) - start_time))
     print("Average relatedness between " + str(table1) + " and " + str(table2) + ": " + str(relatedness_between_sets))
 
 
-# wikidata_main()
+wikidata_main()
 
 
 def weighted_dbpedia_main():
@@ -147,7 +164,7 @@ def weighted_dbpedia_main():
     print("Average relatedness between " + str(table1) + " and " + str(table2) + ": " + str(r2))
 
 
-weighted_dbpedia_main()
+#weighted_dbpedia_main()
 
 
 def get_relatedness_for_multiple_tables(table1=""):

@@ -15,10 +15,10 @@
             "Tianxia": 1.0
         },
         "South Korea": {
-            "South Korea": 1.0,
+            "South Korea": 0.14285714285714285,
             "South Korea at the 1954 Asian Games": 1.0,
             "South Korea national football team": 1.0,
-            "won": 0.3333333333333333,
+            "won": 1.0,
             "President of South Korea": 1.0,
             "Republic of Korea Navy": 1.0,
             "South Korea national under-20 football team": 1.0
@@ -48,13 +48,13 @@
             "Germany in the Eurovision Song Contest 1983": 1.0
         },
         "China": {
-            "China": 0.012048192771084338,
+            "China": 1.0,
             "porcelain": 1.0,
             "1125 China": 1.0,
             "Tianxia": 1.0
         },
         "South Korea": {
-            "South Korea": 0.14285714285714285,
+            "South Korea": 1.0,
             "South Korea at the 1954 Asian Games": 1.0,
             "South Korea national football team": 1.0,
             "won": 0.3333333333333333,
@@ -75,6 +75,650 @@
             "Dominion of Ghana": 1.0,
             "Krishna": 0.027777777777777776,
             "g\u0127ana": 1.0
+        }
+    },
+    {
+        "Turtle": {
+            "turtle": 0.5,
+            "Turtle": 0.02564102564102564,
+            "Antarctic Snow Cruiser": 1.0,
+            "North America": 0.043478260869565216
+        },
+        "Chameleon": {
+            "Chamaeleonidae": 1.0,
+            "Chameleon": 0.02,
+            "Chamaeleoninae": 1.0,
+            "Furcifer nicosiai": 1.0
+        },
+        "Iguana": {
+            "Iguana": 0.1111111111111111,
+            "Iguana: Conservation, Natural History, and Husbandry of Reptiles": 1.0,
+            "Uncharacterized protein Dmel_CG13617": 1.0
+        },
+        "Lizard": {
+            "lizard": 0.5,
+            "Lizard": 1.0,
+            "M53/59 Praga": 1.0
+        },
+        "Gecko": {
+            "Gecko": 1.0,
+            "9K33 Osa": 1.0,
+            "gecko": 1.0,
+            "Gabriel Grego": 1.0,
+            "Gekkonidae": 1.0
+        },
+        "Python": {
+            "Python": 0.04,
+            "CPython": 1.0,
+            "Peithon": 0.3333333333333333
+        },
+        "Boa": {
+            "beam": 1.0,
+            "Bank of America": 0.16666666666666666,
+            "BoA": 1.0,
+            "British Olympic Association": 1.0,
+            "Boa": 1.0,
+            "boa": 1.0,
+            "Boliviana de Aviaci\u00f3n": 1.0
+        },
+        "Adder": {
+            "adder": 1.0,
+            "binary adder": 1.0,
+            "R-77": 1.0,
+            "USS Adder": 1.0,
+            "Adder": 0.5,
+            "W.4B Adder": 1.0,
+            "Adderbury": 0.3333333333333333
+        },
+        "Crocodile": {
+            "crocodile": 1.0,
+            "Crocodylidae": 1.0,
+            "Mil Mi-24": 1.0,
+            "Crocodile": 0.041666666666666664
+        },
+        "Alligator": {
+            "Alligator": 1.0,
+            "Lake City": 0.047619047619047616,
+            "Kamov Ka-52 Alligator": 1.0,
+            "Landing Vehicle Tracked": 1.0
+        },
+        "Gharial": {
+            "Gavialis gangeticus": 1.0,
+            "Gharialis": 1.0,
+            "Gharial conservation in Pakistan": 1.0,
+            "Gharialis hysudricus": 1.0,
+            "Gharialichak Primary School": 1.0,
+            "Gharialis leptodus": 1.0,
+            "Gharialichak SSK": 1.0
+        },
+        "Skink": {
+            "Scincidae": 1.0,
+            "Skink": 1.0,
+            "Clinton Tyree": 1.0,
+            "Emoia": 1.0,
+            "Leposoma scincoides": 1.0,
+            "C-C motif chemokine ligand 27": 1.0,
+            "Chemokine (C-C motif) ligand 27A": 1.0
+        },
+        "Anchovy": {
+            "Engraulidae": 1.0,
+            "anchovy": 0.5,
+            "Anchovy": 1.0
+        },
+        "Flounder": {
+            "JH-7": 1.0,
+            "flounder": 0.5,
+            "plate fish": 1.0,
+            "Flounder": 0.2
+        },
+        "Halibut": {
+            "Atlantic halibut": 1.0,
+            "halibut": 1.0,
+            "Halibut Cove": 1.0,
+            "The Fog Warning": 1.0,
+            "Halibut Point State Park": 1.0,
+            "halibut fisheries": 1.0,
+            "Halibut Treaty": 1.0
+        },
+        "Mackerel": {
+            "mackerel": 0.3333333333333333,
+            "Mackerel": 1.0
+        },
+        "Barracuda": {
+            "Moby": 0.25,
+            "Sphyraena": 1.0,
+            "Sphyraenidae": 1.0,
+            "Fairey Barracuda": 1.0,
+            "Barracuda": 0.037037037037037035
+        },
+        "Marlin": {
+            "Marlin": 1.0,
+            "Marl\u00edn": 0.3333333333333333,
+            "Krupp": 1.0,
+            "marlin": 1.0
+        },
+        "Trout": {
+            "trout": 1.0,
+            "Trout": 0.0625,
+            "The Trout": 1.0
+        },
+        "Salamander": {
+            "Caudata": 0.3333333333333333,
+            "He 162 Volksj\u00e4ger": 1.0,
+            "Salamander": 0.05263157894736842,
+            "salamander": 1.0,
+            "Natsu Dragneel": 1.0,
+            "The Salamander": 1.0
+        },
+        "Siren": {
+            "siren": 0.25,
+            "tin whistle": 1.0,
+            "Siren": 0.018867924528301886
+        },
+        "Tree Frog": {
+            "Hylidae": 1.0,
+            "tree frog": 1.0,
+            "Rhacophorus lateralis": 1.0,
+            "Bokermannohyla izecksohni": 1.0,
+            "Rhacophorus harrissoni": 1.0,
+            "Leptopelis fiziensis": 1.0,
+            "Tree frog": 1.0
+        },
+        "Dart Frog": {},
+        "Firebelly": {
+            "Firebelly darter": 1.0
+        },
+        "Wart Toad": {},
+        "Mosquito": {
+            "Culicidae": 1.0,
+            "de Havilland Mosquito": 1.0,
+            "Miskitos people": 1.0,
+            "Mosquito Coast": 0.5,
+            "midge": 1.0,
+            "Mosquito": 0.029411764705882353
+        },
+        "Hornet": {
+            "Vespa": 1.0,
+            "European hornet": 1.0,
+            "F/A-18 Hornet": 1.0,
+            "R-1690 Hornet": 1.0,
+            "Hiller YH-32 Hornet": 1.0,
+            "Hornet": 0.0196078431372549,
+            "Hornet Peak": 1.0
+        },
+        "Cricket": {
+            "cricket": 0.16666666666666666,
+            "Gryllidae": 1.0,
+            "Cricket": 0.041666666666666664,
+            "Clicker": 1.0,
+            "Chrz\u0105szcz": 0.5
+        },
+        "Beetle": {
+            "beetles": 1.0,
+            "Alan Ackerman Beetle": 1.0,
+            "Blue Beetle": 1.0,
+            "Beetle": 0.08333333333333333,
+            "beetle": 1.0,
+            "Abner Jenkins": 1.0,
+            "Chrz\u0105szcz": 1.0
+        },
+        "Butterfly": {
+            "butterflies": 1.0,
+            "Butterfly": 1.0,
+            "Butterfly's Tongue": 1.0
+        },
+        "Palmetto": {
+            "Palmetto": 1.0,
+            "Sabal palmetto": 1.0,
+            "Sabal minor": 1.0
+        },
+        "Cockroach": {
+            "cockroach": 0.5,
+            "Cockroach": 1.0,
+            "\ud83e\udeb3": 1.0
+        },
+        "Mantis": {
+            "Mantodea": 1.0,
+            "Mantis": 0.06666666666666667,
+            "DH.9": 1.0,
+            "BAE Systems Mantis": 1.0,
+            "Yakovlev Yak-32": 1.0
+        },
+        "Dragonfly": {
+            "Anisoptera": 0.25,
+            "DragonFly BSD": 1.0,
+            "Cessna A-37 Dragonfly": 1.0,
+            "Titan Dragonfly": 1.0,
+            "S-48": 1.0,
+            "Dragonfly": 1.0
+        },
+        "Aphid": {
+            "aphid": 1.0,
+            "R-60": 1.0,
+            "APHID": 1.0,
+            "Aphididae": 1.0,
+            "Aphidius": 1.0,
+            "aphidicolane diterpenoid": 1.0,
+            "Aphidius ervi": 1.0
+        },
+        "Cicada": {
+            "Cicadoidea": 1.0,
+            "Cicada": 0.05263157894736842
+        },
+        "Antlion": {
+            "Myrmeleontidae": 1.0,
+            "Antlions of South Africa": 1.0,
+            "Antlion": 1.0,
+            "Antlions of southern Africa: Syngenes Kolbe, 1897, with descriptions of two new species and comments on extra-limital taxa (Neuroptera: Myrmeleontidae: Acanthaclisini)": 1.0,
+            "Antlions of southern Africa: genus Crambomorphus McLachlan, 1867, including extra-limital species (Neuroptera: Myrmeleontidae: Palparinae: Palparini)": 1.0,
+            "Antlion Pit Construction and Kleptoparasitic Prey": 1.0,
+            "Antlions are sensitive to subnanometer amplitude vibrations carried by sand substrates": 1.0
+        },
+        "Scallop": {
+            "Pectinidae": 1.0,
+            "scallop": 1.0,
+            "Scallop": 0.5,
+            "scalloping": 1.0,
+            "scalloped hammerhead": 1.0,
+            "Scallop-breasted Antpitta": 1.0
+        },
+        "Spider": {
+            "Araneae": 0.5,
+            "web crawler": 1.0,
+            "roadster": 0.5,
+            "John Salley": 1.0,
+            "OTR-23 Oka": 1.0,
+            "Spider": 1.0,
+            "spider": 0.25
+        },
+        "Snail": {
+            "snail": 1.0,
+            "Snail": 0.125,
+            "SNAI1": 1.0,
+            "Snail Dmel_CG3956": 1.0,
+            "schistosomiasis": 1.0,
+            "Suboestophora jeresae": 1.0
+        },
+        "Silkworm": {
+            "Bombyx mori": 1.0,
+            "HY-2": 1.0,
+            "Silkworm": 1.0,
+            "silkworm": 1.0,
+            "Morus alba": 1.0
+        },
+        "Jellyfish": {
+            "jellyfish": 0.5,
+            "Jellyfish": 1.0
+        },
+        "Squid": {
+            "Teuthida": 1.0,
+            "Squid cache": 1.0,
+            "SQUID": 1.0,
+            "squid": 1.0,
+            "Squid": 0.1111111111111111,
+            "squid game": 1.0,
+            "Squid Dmel_CG16901": 1.0
+        }
+    },
+    {
+        "Anta": {
+            "anta": 1.0,
+            "Anta": 0.05555555555555555,
+            "ANTA Sports": 1.0,
+            "Antarctica": 0.02631578947368421,
+            "Southern Ocean": 0.3333333333333333
+        },
+        "Ariranha": {
+            "Ariranha": 0.5,
+            "Ariranha do Iva\u00ed": 1.0,
+            "Ariranha River": 1.0,
+            "giant otter": 0.5
+        },
+        "Boto-Cor-De-Rosa": {
+            "Amazon river dolphin": 1.0,
+            "boto": 1.0
+        },
+        "Bugio": {
+            "bugio": 0.5,
+            "Bugio Island": 1.0,
+            "Bugio Lighthouse": 1.0,
+            "Bugio airfield": 1.0,
+            "boogie-woogie": 1.0,
+            "black howler": 1.0
+        },
+        "Cachorro-Vinagre": {
+            "Speothos venaticus": 0.5
+        },
+        "Chimpanze": {
+            "chimpanzee": 1.0,
+            "Pan": 0.014492753623188406,
+            "Chimpanz\u00e9": 1.0,
+            "Chimpanzee\u2013human last common ancestor": 1.0,
+            "Chimpanzee": 1.0,
+            "chimpanzee trisomy 22": 1.0
+        },
+        "Gato-Maracaja": {
+            "Gato-Maracaj\u00e1, Pedra da On\u00e7a": 1.0,
+            "margay": 1.0,
+            "oncilla": 1.0
+        },
+        "Jaguatirica": {
+            "Usina Termel\u00e9trica Jaguatirica II": 1.0,
+            "ocelot": 1.0
+        },
+        "Lobo-Guara": {
+            "Chrysocyon brachyurus": 0.5,
+            "Chrysocyon": 1.0,
+            "Lobo-Guar\u00e1": 0
+        },
+        "Macaco-Aranha": {
+            "Ateles paniscus": 1.0,
+            "Ateles belzebuth": 1.0,
+            "Ateles hybridus": 1.0,
+            "Ateles chamek": 1.0,
+            "Ateles marginatus": 1.0,
+            "Colombian spider monkey": 1.0,
+            "Mexican spider monkey": 1.0
+        },
+        "Macaco-Barrigudo": {
+            "Lagothrix lagotricha": 1.0,
+            "Lagothrix cana": 1.0,
+            "Lagothrix poeppigii": 1.0,
+            "Lagothrix lugens": 1.0,
+            "Lagothrix cana cana": 1.0
+        },
+        "Mico-Leao-Dourado": {
+            "Leontopithecus rosalia": 1.0
+        },
+        "Mono-Carvoeiro": {
+            "Southern muriqui": 1.0
+        },
+        "Onca-Pintada": {
+            "jaguar": 1.0,
+            "Panthera onca palustris": 1.0,
+            "On\u00e7a-Pintada": 1.0
+        },
+        "Orangotango": {
+            "Orangotango": 1.0,
+            "Bornean orangutan": 1.0,
+            "Sumatran orangutan": 1.0,
+            "Orangutan": 1.0,
+            "fictional orangutan": 1.0,
+            "Orangutans in popular culture": 1.0
+        },
+        "Peixe-Boi": {
+            "Peixe-Boi": 1.0,
+            "Peixe-Boi River": 1.0,
+            "West Indian manatee": 1.0,
+            "Trichechus": 1.0,
+            "Amazonian manatee": 1.0,
+            "African manatee": 1.0,
+            "Trichechidae": 1.0
+        },
+        "Queixada": {
+            "Queixada": 1.0,
+            "Tayassuidae": 1.0,
+            "white-lipped peccary": 1.0,
+            "Ademir de Menezes": 1.0,
+            "Queixada com martelo": 1.0,
+            "Queixada com rasteira": 0,
+            "Queixadas": 1.0
+        },
+        "Tamandua-Bandeira": {
+            "Tamandu\u00e1 Bandeira - MC Airfield": 1.0,
+            "giant anteater": 1.0,
+            "Myrmecophaga": 1.0,
+            "Tamandu\u00e1-bandeira": 1.0
+        },
+        "Urso-De-Oculos": {
+            "spectacled bear": 1.0
+        },
+        "Aguia-Cinzenta": {
+            "Crowned Solitary Eagle": 1.0
+        },
+        "Aracari-Banana": {
+            "Saffron Toucanet": 1.0
+        },
+        "Arara-Azul": {
+            "Arara Azul Airfield": 1.0,
+            "Hyacinth Macaw": 1.0,
+            "Lear's Macaw": 1.0,
+            "Glaucous Macaw": 1.0
+        },
+        "Arara-Caninde": {
+            "Blue-and-yellow Macaw": 1.0,
+            "Arara-canind\u00e9 e jabuti-tinga ser\u00e3o reintroduzidos no Parque da Tijuca": 0
+        },
+        "Chaua": {
+            "Chaua": 1.0,
+            "Chau\u00e1s Ecological Station": 1.0,
+            "cattle": 1.0,
+            "ushabti": 1.0,
+            "Red-browed Amazon": 1.0,
+            "Khauaze": 1.0
+        },
+        "Ema": {
+            "European Medicines Agency": 1.0,
+            "Ema": 0.07692307692307693,
+            "East Midlands Airport": 1.0,
+            "ema": 0.5,
+            "Emma": 1.0,
+            "mucin 1, cell surface associated": 1.0,
+            "\u00c9cole des mines d'Al\u00e8s": 1.0
+        },
+        "Gaviao-Pombo": {
+            "Plumbeous Kite": 1.0,
+            "White-necked Hawk": 1.0,
+            "Mantled Hawk": 1.0
+        },
+        "Guara": {
+            "Guar\u00e1": 1.0,
+            "Miguel Guara Requena": 1.0,
+            "Guara": 1.0
+        },
+        "Harpia": {
+            "Harpia": 0.5,
+            "Harpia harpyja": 1.0,
+            "H\u0103rpian": 1.0,
+            "Harpias n\u00b0 1": 1.0,
+            "Harpia harpyja: BirdLife International": 1.0,
+            "harpies": 1.0
+        },
+        "Jacurutu": {
+            "Jacurutu River": 1.0,
+            "Jacurutu I": 1.0,
+            "Great Horned Owl": 0.25,
+            "South American Great Horned Owl": 1.0
+        },
+        "Jacutinga": {
+            "Jacutinga, Minas Gerais": 1.0,
+            "jacutinga": 1.0,
+            "Jacutinga": 0.5,
+            "Jos\u00e9 Carlos Ramos Pinto": 1.0,
+            "Jacutinga, Rio Grande do Sul": 1.0,
+            "jacutingaite": 1.0
+        },
+        "Jandaia-Amarela": {
+            "Sun Parakeet": 1.0
+        },
+        "Macuco": {
+            "Macuco": 0.3333333333333333,
+            "Macucos": 1.0,
+            "Macuco de Minas": 1.0,
+            "Great Tinamou": 1.0
+        },
+        "Murucututu": {
+            "Murucututu": 1.0,
+            "Spectacled Owl": 1.0,
+            "Tawny-browed Owl": 1.0,
+            "Band-bellied Owl": 1.0
+        },
+        "Mutum": {
+            "Mutum, Minas Gerais": 1.0,
+            "Mutum": 1.0,
+            "Mutsumi": 0.06666666666666667,
+            "Mutumba Mainga": 1.0,
+            "Mutum River": 0.2
+        },
+        "Papagaio-De-Cara-Roxa": {
+            "Red-tailed Parrot": 1.0
+        },
+        "Pato-De-Crista": {
+            "Knob-billed Duck": 1.0,
+            "Crested Duck": 1.0,
+            "Crested Shelduck": 1.0,
+            "Comb Duck": 1.0
+        },
+        "Pavo": {
+            "Pavo": 0.125,
+            "Vasile P\u0103un": 1.0
+        },
+        "Tucano-De-Bico-Preto": {
+            "Channel-billed Toucan": 1.0
+        },
+        "Urubu-Rei": {
+            "King Vulture": 1.0,
+            "Sarcoramphus": 1.0
+        },
+        "Cobra-Cipo": {
+            "Chironius": 1.0,
+            "Chironius quadricarinatus": 1.0,
+            "Cobra-cip\u00f3": 1.0
+        },
+        "Jabuti": {
+            "Jabut\u00ed": 1.0,
+            "Plinia cauliflora": 1.0,
+            "Yabutian": 1.0,
+            "Jabuticaba-Induced Endothelium-Independent Vasodilating Effect on Isolated Arteries": 1.0,
+            "Jabuticaba residues (Myrciaria jaboticaba (Vell.) Berg) are rich sources of valuable compounds with bioactive properties": 1.0,
+            "Jabuticaba (Plinia jaboticaba) skin extracts as inhibitors of phospholipases A2 and proteases": 1.0,
+            "Jabuticaba [Plinia peruviana (Poir.) Govaerts]: a Brazilian fruit with a promising application against itraconazole-susceptible and -resistant Sporothrix brasiliensis": 1.0
+        },
+        "Jacare-Coroa": {
+            "Smooth-fronted caiman": 1.0
+        },
+        "Jararaca-Ilhoa": {
+            "Bothrops insularis": 1.0
+        },
+        "Jiboia": {
+            "CPEF 193 \u201cJiboia\u201d": 1.0,
+            "Corallus cropanii": 0.5,
+            "Boa constrictor": 1.0,
+            "Boidae": 1.0,
+            "Emerald tree boa": 1.0,
+            "rainbow boa": 1.0,
+            "Round Island Burrowing Boa": 1.0
+        },
+        "Sucuri": {
+            "Sucuri": 1.0,
+            "\u0218ucuri": 1.0,
+            "Sucuri\u00fa River": 1.0,
+            "\u0160u\u0107uri\u0107i, Gora\u017ede": 1.0,
+            "\u0160u\u0107uri\u0107i, Novo Gora\u017ede": 1.0,
+            "Sucuriju Gigante": 1.0,
+            "Sucuriju": 1.0
+        },
+        "Tracaja": {
+            "Yellow-spotted river turtle": 1.0,
+            "Tracaj\u00e1": 0
+        },
+        "Urutu-Cruzeiro": {
+            "Urutu Lancehead": 1.0
+        },
+        "Baiacu": {
+            "Baiacu": 0.5,
+            "Baiacu: A Tool for the Visual Analysis of the Saccharomyces Cerevisiae Regulatory Network": 1.0,
+            "Tetraodon nigroviridis": 1.0,
+            "Diodontidae": 1.0,
+            "fugu": 1.0,
+            "Dwarf pufferfish": 1.0
+        },
+        "Cascudinho-De-Caverna": {},
+        "Lambari": {
+            "Lambari": 0.25,
+            "Astyanax anterior": 1.0,
+            "Lambari d'Oeste": 1.0,
+            "Lambarih Jurong Raya": 1.0,
+            "Lambarih Bak Mee": 1.0
+        },
+        "Matrinxa": {
+            "Matrinx\u00e3 River": 1.0,
+            "Brycon": 1.0
+        },
+        "Pirarucu": {
+            "Arapaima gigas": 1.0,
+            "Arapaima": 0.5
+        },
+        "Raia-Chita": {
+            "Spotback skate": 1.0
+        },
+        "Tambaqui": {
+            "Tambaqui / Cachama": 1.0,
+            "Tambaqui Power Plant": 1.0,
+            "Tambaqui females (Colossoma macropomum) spawn after hormonal induction with buserelin acetate": 1.0,
+            "Tambaqui (Colossoma macropomum) and epilepsy: a flourishing of fish form": 1.0,
+            "Tambaqui (Colossoma macropomum) acclimated to different tropical waters from the Amazon basin shows specific acute-stress responses": 1.0
+        },
+        "Tubarao-Raposa": {},
+        "Perereca-De-Alcatrazes": {},
+        "Ra-Flecha-Azul": {},
+        "Ra-Pimenta": {},
+        "Sapo-Barriga-De-Fogo": {},
+        "Sapo-Cururu": {
+            "Sapo Cururu": 1.0,
+            "Sapo-cururu": 1.0,
+            "Rococo toad": 1.0,
+            "Rhinella icterica": 1.0
+        },
+        "Sapo-De-Chifre": {},
+        "Abelha": {
+            "Arnaut de Toledo, Vagner de Alencar": 1.0,
+            "Abelhaleem Hasan Abdelraziq Ashqar": 1.0,
+            "Abelhaugen": 1.0,
+            "Abelh\u00e5gjen": 1.0,
+            "Abelha da China": 1.0,
+            "Abelha Building": 1.0
+        },
+        "Joaninha": {
+            "Gilmar Pereira Flores": 1.0,
+            "Joaninha": 1.0,
+            "Joaninha Costa Rosa": 1.0,
+            "Joaninha de Jesus": 1.0,
+            "Coccinellidae": 1.0,
+            "Dona Joaninha": 1.0
+        },
+        "Mariposa": {
+            "Mariposa": 0.045454545454545456,
+            "Madeline Johnston": 1.0
+        },
+        "Pirilampo": {
+            "Pirilampo": 1.0,
+            "Pirilampo M\u00e1gico": 1.0,
+            "Lampyridae": 1.0,
+            "Lampyris noctiluca": 1.0,
+            "glowworm": 1.0,
+            "Phosphaenus hemipterus": 1.0,
+            "Luciola lusitanica": 1.0
+        },
+        "Vespa": {
+            "Vespa": 0.09090909090909091,
+            "6062 Vespa": 1.0
+        },
+        "Bicho-Pau": {
+            "Bicho-Pau (Phasmatodea) da Reserva Biol\u00f3gica de Pedra Talhada": 1.0,
+            "Phobaeticus kirbyi": 1.0,
+            "Megaphasma dentricus": 1.0,
+            "Ctenomorphodes chronus": 1.0
+        },
+        "Caracol-Da-Mata-Atlantica": {},
+        "Caranguejeira": {
+            "Caranguejeira": 0.5,
+            "Lasiodora parahybana": 1.0,
+            "Grammostola pulchra": 1.0,
+            "Capelas": 1.0
+        },
+        "Sauva-Limao": {
+            "Atta sexdens": 1.0
         }
     }
 ]

@@ -40,25 +40,42 @@ def get_sum_pair(label_set1: dict, label_set2: dict) -> float:
 
 def get_weighted_entity_set(label_set: dict) -> dict:
     weighted_entity_set = dict()
-    label_count = dict()
     for entity in label_set:
         labels = label_set[entity]
         for label in labels:
             if label in weighted_entity_set.keys():
                 weighted_entity_set[label] += labels[label]
-                label_count[label] += 1
             else:
                 weighted_entity_set[label] = labels[label]
-                label_count[label] = 1
     for label in weighted_entity_set.keys():
-        # weighted_entity_set[label] /= label_count[label]
         weighted_entity_set[label] /= len(label_set)
     return weighted_entity_set
+
+
+def get_weighted_expansion_entity_set(label_set: dict, n=1.0, m=1.0) -> dict:
+    weighted_expansion_entity_set = dict()
+    for entity in label_set:
+        labels = label_set[entity]
+        for label in labels:
+            if label in weighted_expansion_entity_set.keys():
+                weighted_expansion_entity_set[label] += labels[label]
+            else:
+                weighted_expansion_entity_set[label] = labels[label]
+    for label in weighted_expansion_entity_set.keys():
+        weighted_expansion_entity_set[label] = pow(weighted_expansion_entity_set[label], n) / pow(len(label_set), m)
+    return weighted_expansion_entity_set
 
 
 def get_set_relatedness(label_set1: dict, label_set2: dict) -> float:
     weighted_entity_set1 = get_weighted_entity_set(label_set1)
     weighted_entity_set2 = get_weighted_entity_set(label_set2)
+    product = dot_product(weighted_entity_set1, weighted_entity_set2)
+    return product
+
+
+def get_set_relatedness_expansion(label_set1: dict, label_set2: dict, n1=1.0, n2=1.0, m1=1.0, m2=1.0) -> float:
+    weighted_entity_set1 = get_weighted_expansion_entity_set(label_set1, n1, m1)
+    weighted_entity_set2 = get_weighted_expansion_entity_set(label_set2, n2, m2)
     product = dot_product(weighted_entity_set1, weighted_entity_set2)
     return product
 

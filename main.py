@@ -5,6 +5,8 @@ import dbpedia
 import extract_entities
 import get_info_from_wikidata
 import datetime
+
+import labelsdb
 import query_webisa
 import relatedness
 import label_search_wikidata
@@ -171,6 +173,8 @@ def weighted_dbpedia_main():
 
 
 def get_relatedness_for_multiple_tables(table1="data/example_dataset/countries8.csv"):
+    labelsdb.init_database()
+
     query_time = 0
     calculation_time = 0
 

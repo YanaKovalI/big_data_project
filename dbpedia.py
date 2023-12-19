@@ -2,29 +2,30 @@ import json
 
 from SPARQLWrapper import SPARQLWrapper, JSON
 
+import labelsdb
+
 cache = dict()
 
 
 def get_weighted_labels(entities, limit=99999):
     labels = {}
-    entities_not_in_csv = []
+    entities_not_in_db = []
     for entity in entities:
         try:
-            with open('dbpedia_labels.json', 'r') as file:
-                data = json.load(file)
-                if entity in data.keys():
-                    labels[entity] = data[entity]
-                else:
-                    entities_not_in_csv.append(entity)
-                    labels[entity] = get_labels_by_query(entity, limit)
+            data = labelsdb.get_labels(entity)
+            if data is not None:
+                labels[entity] = data
+            else:
+                entities_not_in_db.append(entity)
+                labels[entity] = get_labels_by_query(entity, limit)
 
 
         except Exception as e:
-            entities_not_in_csv.append(entity)
+            entities_not_in_db.append(entity)
             labels[entity] = get_labels_by_query(entity, limit)
 
     entity_count = 1
-    for entity in entities_not_in_csv:
+    for entity in entities_not_in_db:
         entity_labels = labels[entity]
 
         weighted_labels = get_weighted_labels_in_chunks(entity_labels)
@@ -44,7 +45,7 @@ def get_weighted_labels(entities, limit=99999):
         print("Weighted labels for {0}: ".format(entity))
         print(weighted_labels)
         entity_count += 1
-        save_to_json_file(entity, weighted_labels)
+        labelsdb.put_labels(entity, weighted_labels)
     return labels
 
 

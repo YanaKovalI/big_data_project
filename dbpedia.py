@@ -9,19 +9,18 @@ cache = dict()
 
 def get_weighted_labels(entities, limit=99999):
     labels = {}
-    entities_not_in_db = []
+    entities_not_in_db = set()
     for entity in entities:
         try:
             data = labelsdb.get_labels(entity)
             if data is not None:
                 labels[entity] = data
             else:
-                entities_not_in_db.append(entity)
+                entities_not_in_db.add(entity)
                 labels[entity] = get_labels_by_query(entity, limit)
 
-
         except Exception as e:
-            entities_not_in_db.append(entity)
+            entities_not_in_db.add(entity)
             labels[entity] = get_labels_by_query(entity, limit)
 
     entity_count = 1
@@ -49,36 +48,23 @@ def get_weighted_labels(entities, limit=99999):
     return labels
 
 
-def save_to_json_file(entity, weighted_labels):
-    with open('dbpedia_labels.json', 'r') as infile:
-        try:
-            data = json.load(infile)
-            data = data | {entity: weighted_labels}
-            with open('dbpedia_labels.json', 'w') as outfile:
-                json.dump(data, outfile)
-        except Exception as e:
-            with open('dbpedia_labels.json', 'w') as outfile:
-                json.dump({entity: weighted_labels}, outfile)
-
-
-def get_json_dict():
-    json_file = open('dbpedia_makeshift_db.json')
-    json_str = json_file.read()
-    json_data = json.loads(json_str)[0]
-    return json_data
-
-
 def get_weighted_labels_in_chunks(labels):
-    entity_labels_chunks = list()
-    for i in range(0, len(labels), 100):
-        entity_labels_chunks.append(labels[i:i + 100])
-    weighted_labels_chunks = list()
-    for chunk in entity_labels_chunks:
-        weighted_labels_chunks.append(get_weights_with_one_query(chunk))
-    weighted_labels = dict()
-    for chunk in weighted_labels_chunks:
-        weighted_labels = weighted_labels | chunk
-    return weighted_labels
+    if not labels:
+        return dict()
+    try:
+        entity_labels_chunks = list()
+        for i in range(0, len(labels), 100):
+            entity_labels_chunks.append(labels[i:i + 100])
+        weighted_labels_chunks = list()
+        for chunk in entity_labels_chunks:
+            weighted_labels_chunks.append(get_weights_with_one_query(chunk))
+        weighted_labels = dict()
+        for chunk in weighted_labels_chunks:
+            weighted_labels = weighted_labels | chunk
+        return weighted_labels
+    except Exception as e:
+        print(e)
+        return dict(labels)
 
 
 def get_labels_by_query(entity, limit):

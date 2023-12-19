@@ -26,7 +26,7 @@ def wikidata_main():
     print("RESULT after {0} of calculation:".format(datetime.datetime.now().replace(microsecond=0) - start_time))
     print("Average relatedness between " + str(table1) + " and " + str(table2) + ": " + str(relatedness_between_sets))
 
-wikidata_main()
+# wikidata_main()
 
 
 def weighted_dbpedia_main():
@@ -103,7 +103,7 @@ def get_relatedness_for_multiple_tables(table1="data/example_dataset/countries8.
         print("{0}: {1}".format(key, value))
 
 
-#get_relatedness_for_multiple_tables()
+get_relatedness_for_multiple_tables()
 
 
 # def main(input_table, order_path, n1, n2, m1, m2, quelle):

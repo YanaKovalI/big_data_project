@@ -52,6 +52,9 @@ def put_labels(entity, labels):
     statement = """
         INSERT or IGNORE INTO labels VALUES(?, ?)
     """
-    cursor.execute(statement, data)
-    connection.commit()
+    try:
+        cursor.execute(statement, data)
+        connection.commit()
+    except Exception as e:
+        print(e)
     connection.close()

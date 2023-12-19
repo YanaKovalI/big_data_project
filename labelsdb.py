@@ -50,7 +50,7 @@ def put_labels(entity, labels):
     labels = json.dumps(labels)
     data = (entity, labels)
     statement = """
-        INSERT INTO labels VALUES(?, ?)
+        INSERT or IGNORE INTO labels VALUES(?, ?)
     """
     cursor.execute(statement, data)
     connection.commit()

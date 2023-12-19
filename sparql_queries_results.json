@@ -720,5 +720,516 @@
         "Sauva-Limao": {
             "Atta sexdens": 1.0
         }
+    },
+    {
+        "Somaliland": {
+            "Somaliland": 0.5,
+            "British Somaliland": 1.0,
+            "State of Somaliland": 1.0,
+            "SOMALILAND": 1.0,
+            "Somaliland shilling": 1.0,
+            "flag of Somaliland": 1.0,
+            "Somaliland national football team": 1.0
+        },
+        "South Georgia And South Sandwich Islands": {
+            "South Georgia and the South Sandwich Islands": 1.0,
+            "South Georgia and South Sandwich Islands sovereignty dispute": 1.0,
+            "South Georgia and South Sandwich Islands Gazette": 1.0
+        },
+        "French Southern And Antarctic Lands": {
+            "French Southern and Antarctic Lands": 1.0,
+            "coat of arms of French Southern and Antarctic Lands": 1.0,
+            "French Southern and Antarctic Lands nature reserve": 1.0,
+            "transport in the French Southern and Antarctic Lands": 1.0
+        },
+        "Palestine": {
+            "State of Palestine": 1.0,
+            "Palestine": 1.0,
+            "Mandatory Palestine": 1.0,
+            "Palestinian territories": 1.0,
+            "Palestinian National Authority": 1.0,
+            "Land of Israel": 1.0
+        },
+        "Aland Islands": {
+            "\u00c5land Islands": 1.0,
+            "Aland Islands": 1.0,
+            "\u00c5land Islands official football team": 1.0,
+            "\u00c5land Islands Highway 1": 1.0,
+            "\u00c5land Islands Highway 2": 1.0,
+            "\u00c5land Islands Highway 4": 1.0,
+            "\u00c5land Islands Highway 3": 1.0
+        },
+        "Nauru": {
+            "Nauru": 1.0,
+            "Nauruan": 0.5,
+            "Nowruz": 1.0,
+            "Nauru Bwiema": 1.0
+        },
+        "Saint Martin": {
+            "Martin of Tours": 1.0,
+            "Sint Maarten": 0.2,
+            "Saint-Martin": 1.0,
+            "Saint Martin": 0.038461538461538464
+        },
+        "Tokelau": {
+            "Tokelau": 1.0,
+            "Tokelauan": 1.0,
+            "flag of Tokelau": 1.0
+        },
+        "Western Sahara": {
+            "Western Sahara": 0.3333333333333333,
+            "Western Sahara War": 1.0,
+            "coat of arms of Western Sahara": 1.0,
+            "Western Saharan Spiny Mouse": 1.0,
+            "Western Sahara conflict": 1.0
+        },
+        "Afghanistan": {
+            "Afghanistan": 1.0,
+            "Kingdom of Afghanistan": 1.0,
+            "War in Afghanistan": 1.0
+        },
+        "Albania": {
+            "Albania": 0.045454545454545456,
+            "Kingdom of Albania": 1.0,
+            "Italian protectorate of Albania": 0.5,
+            "Albanian Kingdom": 1.0,
+            "Albanian Republic": 1.0,
+            "Independent Albania": 1.0
+        },
+        "Algeria": {
+            "Algeria": 0.125,
+            "Cabrera": 1.0,
+            "1213 Algeria": 1.0
+        },
+        "American Samoa": {
+            "American Samoa": 1.0,
+            "American Samoa national football team": 1.0,
+            "American Samoa at the Olympics": 1.0,
+            "National Park of American Samoa": 1.0,
+            "flag of American Samoa": 1.0,
+            "American Samoa at the 2016 Summer Olympics": 1.0,
+            "Governor of American Samoa": 1.0
+        },
+        "Andorra": {
+            "Andorra": 0.05263157894736842
+        },
+        "Angola": {
+            "Angola": 1.0,
+            "Steuben County": 0.3333333333333333,
+            "1712 Angola": 1.0,
+            "Louisiana State Penitentiary": 1.0
+        },
+        "Anguilla": {
+            "Anguilla": 1.0,
+            "European eel": 0.5
+        },
+        "Antigua And Barbuda": {
+            "Antigua and Barbuda": 1.0,
+            "Antigua and Barbuda national football team": 1.0,
+            "flag of Antigua and Barbuda": 1.0,
+            "Antigua and Barbuda at the Olympics": 1.0,
+            "coat of arms of Antigua and Barbuda": 1.0,
+            "Antigua and Barbuda Premier Division": 1.0,
+            "Antigua and Barbuda Football Association": 1.0
+        },
+        "Argentina": {
+            "Argentina": 0.02127659574468085,
+            "469 Argentina": 1.0,
+            "list of islands of Argentina": 1.0
+        },
+        "Armenia": {
+            "Armenia": 1.0,
+            "780 Armenia": 1.0,
+            "Armenian": 1.0
+        },
+        "Aruba": {
+            "Aruba": 0.09090909090909091,
+            "Marios K": 1.0
+        },
+        "Australia": {
+            "Australia": 0.00980392156862745,
+            "Australian continent": 1.0,
+            "8088 Australia": 1.0,
+            "Australian rules football": 1.0
+        },
+        "Austria": {
+            "Austria": 0.047619047619047616,
+            "Austria-Hungary": 1.0,
+            "Austrian Empire": 1.0,
+            "136 Austria": 1.0,
+            "Styria": 0.2
+        },
+        "Azerbaijan": {
+            "Azerbaijan": 1.0,
+            "Iranian Azerbaijan": 1.0,
+            "Apostolic Prefecture of Azerbaijan": 1.0,
+            "Gansu Uyghur Kingdom": 1.0,
+            "Azerbaijani": 1.0,
+            "Azerbaijani Wikipedia": 1.0,
+            "Azerbaijan (song)": 1.0
+        },
+        "Bahamas": {
+            "The Bahamas": 0.5,
+            "Lucayan Archipelago": 1.0,
+            "Bahamas": 0.16666666666666666,
+            "LMS Jubilee Class 5596 \u201cBahamas\u201d": 1.0
+        },
+        "Bahrain": {
+            "Bahrain": 0.16666666666666666,
+            "Eastern Arabia": 1.0,
+            "Bahrain national football team": 1.0,
+            "Bahrain Victorious": 1.0,
+            "Bahraini Premier League": 0.5
+        },
+        "Bangladesh": {
+            "Bangladesh": 1.0,
+            "UTC+06:00": 1.0,
+            "village": 1.0,
+            "Bangladesh Awami League": 1.0,
+            "Bangladesh national cricket team": 1.0
+        },
+        "Barbados": {
+            "Barbados": 0.07692307692307693
+        },
+        "Belarus": {
+            "Belarus": 1.0,
+            "Belarusian": 0.5,
+            "Byelorussian Soviet Socialist Republic": 1.0
+        },
+        "Belgium": {
+            "Belgium": 0.024390243902439025,
+            "Belgium national football team": 1.0
+        }
+    },
+    {
+        "Belize": {
+            "Belize": 0.16666666666666666,
+            "British Honduras": 0.5,
+            "Belize national association football team": 1.0
+        },
+        "Benin": {
+            "Benin": 0.1,
+            "Benin Empire": 1.0,
+            "Edo people": 1.0,
+            "Benin Airport": 1.0
+        },
+        "Bermuda": {
+            "Bermuda": 0.06666666666666667,
+            "bermuda shorts": 1.0,
+            "Great Bermuda": 1.0,
+            "Jaehoon": 1.0
+        },
+        "Bhutan": {
+            "Bhutan": 0.25,
+            "Bhutan national football team": 1.0,
+            "Pinus wallichiana": 1.0,
+            "ngultrum": 1.0
+        },
+        "Bolivia": {
+            "Bolivia": 0.05263157894736842
+        },
+        "Bosnia And Herzegovina": {
+            "Bosnia and Herzegovina": 0.3333333333333333,
+            "Constitution of Bosnia and Herzegovina": 1.0,
+            "Bosnia and Herzegovina national football team": 1.0,
+            "Bosnia and Herzegovina national under-21 football team": 1.0,
+            "Bosnia and Herzegovina in the Eurovision Song Contest": 1.0,
+            "Bosnia and Herzegovina convertible mark": 1.0
+        },
+        "Botswana": {
+            "Botswana": 0.3333333333333333,
+            "Badimo": 1.0,
+            "Botswana national football team": 1.0,
+            "Botswana pula": 1.0,
+            "Botswana Democratic Party": 1.0
+        },
+        "Brazil": {
+            "Brazil": 1.0,
+            "State of Brazil": 1.0,
+            "Viceroyalty of Brazil": 1.0
+        },
+        "British Virgin Islands": {
+            "British Virgin Islands": 1.0,
+            "British Virgin Islands national football team": 1.0,
+            "British Virgin Islands at the Olympics": 1.0,
+            "flag of the British Virgin Islands": 1.0,
+            "coat of arms of the British Virgin Islands": 1.0,
+            "British Virgin Islands at the 2016 Summer Olympics": 1.0,
+            "British Virgin Islands at the 2012 Summer Olympics": 1.0
+        },
+        "Brunei Darussalam": {
+            "Brunei": 1.0,
+            "Brunei at the Commonwealth Games": 1.0,
+            "Royal Brunei Armed Forces": 1.0,
+            "Brunei Darussalam National Olympic Council": 1.0,
+            "Brunei Darussalam Cycling Federation": 1.0,
+            "Brunei FA": 1.0,
+            "Brunei Darussalam Maritime Museum": 1.0
+        },
+        "Bulgaria": {
+            "Bulgaria": 0.03125,
+            "2575 Bulgaria": 1.0,
+            "Bulgarian": 0.3333333333333333
+        },
+        "Burkina Faso": {
+            "Burkina Faso": 1.0,
+            "Burkina Faso national football team": 1.0,
+            "flag of Burkina Faso": 1.0,
+            "Burkina Faso at the Olympics": 1.0,
+            "coat of arms of Burkina Faso": 1.0
+        },
+        "Myanmar": {
+            "Myanmar": 0.16666666666666666,
+            "UTC+06:30": 1.0
+        },
+        "Burundi": {
+            "Burundi": 0.16666666666666666,
+            "Burundi national football team": 1.0,
+            "flag of Burundi": 1.0,
+            "Burundian franc": 1.0
+        },
+        "Cambodia": {
+            "Cambodia": 0.14285714285714285,
+            "list of web awards": 1.0,
+            "Mohammed Haruna": 0.5
+        },
+        "Cameroon": {
+            "Cameroon": 1.0,
+            "Cameroon at the 2008 Summer Paralympics": 1.0
+        },
+        "Canada": {
+            "Canada": 1.0,
+            "Province of Canada": 1.0,
+            "Canada at the 1996 Summer Olympics": 1.0,
+            "Canada East": 0.5
+        },
+        "Cape Verde": {
+            "Cape Verde": 1.0,
+            "Portuguese Cape Verde": 1.0,
+            "Cape Verde Archipelago": 1.0,
+            "Cape Verde at the 2019 African Beach Games": 1.0,
+            "Cape Verde national football team": 1.0
+        },
+        "Cayman Islands": {
+            "Cayman Islands": 0.25,
+            "Cayman Islands national football team": 1.0,
+            "Cayman Islands at the Olympics": 1.0,
+            "Cayman Islands dollar": 1.0,
+            "flag of the Cayman Islands": 1.0
+        },
+        "Central African Republic": {
+            "Central African Republic": 1.0,
+            "Central African Republic national football team": 1.0,
+            "flag of the Central African Republic": 1.0
+        },
+        "Chad": {
+            "Chad": 0.047619047619047616,
+            "Yasutora Sado": 1.0
+        },
+        "Chile": {
+            "Chile": 0.06666666666666667,
+            "chili pepper": 1.0,
+            "4636 Chile": 1.0,
+            "Corporaci\u00f3n de Promoci\u00f3n y Defensa de los Derechos del Pueblo": 1.0
+        },
+        "Christmas Island": {
+            "Christmas Island": 0.03571428571428571,
+            "Kiritimati": 1.0,
+            "Christmas Island Airport": 1.0
+        },
+        "Cocos Islands": {
+            "Cocos Islands": 1.0,
+            "Cocos (Keeling) Islands Airport": 1.0,
+            "Cocos Malay": 1.0,
+            "Cocos Islands national football team": 1.0,
+            "Cocos Islands Mutiny": 1.0,
+            "Cocos Islanders": 1.0
+        },
+        "Colombia": {
+            "Colombia": 1.0,
+            "Colombia national football team": 0.5,
+            "Florida": 1.0,
+            "Col\u00f4mbia": 0.5
+        },
+        "Comoros": {
+            "Comoros": 1.0,
+            "Comoros Islands": 1.0,
+            "Comoros national football team": 1.0
+        },
+        "Democratic Republic Of The Congo": {
+            "Democratic Republic of the Congo": 1.0,
+            "Republic of the Congo (L\u00e9opoldville)": 1.0,
+            "DR Congo national football team": 1.0,
+            "flag of the Democratic Republic of the Congo": 1.0,
+            "history of the Democratic Republic of the Congo": 1.0,
+            "Democratic Republic of the Congo at the Olympics": 1.0,
+            "geography of the Democratic Republic of the Congo": 1.0
+        },
+        "Republic Of Congo": {
+            "Republic of the Congo": 1.0,
+            "Republic of the Congo\u2013Switzerland relations": 1.0,
+            "Republic of Congo national badminton team": 1.0,
+            "REPUBLIC OF CONGO: Debt Reduction Deal": 1.0,
+            "REPUBLIC OF CONGO: Debt Cancellation": 1.0,
+            "REPUBLIC OF CONGO: Debt Cancellation Deal": 1.0,
+            "Congo": 1.0
+        }
+    },
+    {
+        "Cook Islands": {
+            "Cook Islands": 0.16666666666666666,
+            "Cook Islands national football team": 1.0,
+            "Cook Islands Maori": 1.0
+        },
+        "Costa Rica": {
+            "Costa Rica": 0.06666666666666667
+        },
+        "Cote D'Ivoire": {
+            "Ivory Coast": 0.3333333333333333,
+            "C\u00f4te d'Ivoire": 1.0,
+            "C\u00f4te d'Ivoire men's national basketball team": 1.0,
+            "C\u00f4te d'Ivoire at the 2012 Summer Olympics": 1.0,
+            "C\u00f4te d'Ivoire at the 2008 Summer Olympics": 1.0,
+            "C\u00f4te d'Ivoire national under-20 football team": 1.0,
+            "C\u00f4te d'Ivoire at the 2004 Summer Olympics": 1.0
+        },
+        "Croatia": {
+            "Croatia": 0.1111111111111111,
+            "Kingdom of Croatia": 1.0,
+            "589 Croatia": 1.0,
+            "Croatian": 1.0,
+            "Medieval Croatia": 1.0,
+            "Croatian Wikipedia": 1.0
+        },
+        "Cuba": {
+            "Cuba": 0.01694915254237288
+        },
+        "Cura\u00e7ao": {
+            "Cura\u00e7ao": 0.1111111111111111
+        },
+        "Cyprus": {
+            "Cyprus": 1.0,
+            "brucellosis": 1.0
+        },
+        "Czech Republic": {
+            "Czech Republic": 1.0,
+            "Czech Republic national association football team": 1.0
+        },
+        "Denmark": {
+            "Denmark": 1.0,
+            "Kingdom of Denmark": 0.3333333333333333
+        },
+        "Djibouti": {
+            "Djibouti": 1.0
+        },
+        "Dominica": {
+            "Dominica": 0.125,
+            "Dominican Republic": 1.0,
+            "Dominican Order": 0.5,
+            "Cyriaca": 1.0,
+            "Dominika": 0.25
+        },
+        "Dominican Republic": {
+            "Dominican Republic": 1.0,
+            "Dominican Republic national football team": 1.0,
+            "flag of Dominican Republic": 1.0,
+            "Dominican Republic at the Olympics": 1.0
+        },
+        "Ecuador": {
+            "Ecuador": 1.0,
+            "10792 Ecuador": 1.0,
+            "Andes": 1.0
+        },
+        "Egypt": {
+            "Egypt": 0.02040816326530612,
+            "Egypt Eyalet": 1.0,
+            "Southern Illinois": 1.0,
+            "ancient Egypt": 1.0
+        },
+        "El Salvador": {
+            "El Salvador": 0.045454545454545456,
+            "Emma Swan-Jones": 1.0
+        },
+        "Equatorial Guinea": {
+            "Equatorial Guinea": 0.3333333333333333,
+            "Equatorial Guinea national association football team": 1.0,
+            "Equatorial Guinea\u2019s Cabinet Dataset (1994-2020)": 1.0,
+            "Equatoguinean Spanish": 1.0,
+            "flag of Equatorial Guinea": 1.0
+        },
+        "Eritrea": {
+            "Eritrea": 1.0,
+            "Erythrae": 0.25
+        },
+        "Estonia": {
+            "Estonia": 1.0,
+            "MS Estonia": 0.5,
+            "1541 Estonia": 1.0,
+            "Estonian": 0.25,
+            "Estland": 1.0,
+            "Estonian Wikipedia": 1.0
+        },
+        "Ethiopia": {
+            "Ethiopia": 1.0,
+            "Sudan": 0.06666666666666667,
+            "1432 Ethiopia": 1.0,
+            "Afani oromoo of Ethiopia": 1.0
+        },
+        "Falkland Islands": {
+            "Falkland Islands": 1.0,
+            "geography of the Falkland Islands": 1.0,
+            "Falkland Islands wolf": 1.0,
+            "Falkland Islands pound": 1.0,
+            "flag of the Falkland Islands": 1.0,
+            "coat of arms of the Falkland Islands": 1.0
+        },
+        "Faroe Islands": {
+            "Faroe Islands": 1.0,
+            "Faroe Islands national football team": 1.0,
+            "Faroe Islands Football Association": 1.0,
+            "Faroe Islands Premier League": 1.0,
+            "Faroe Islands Cup": 1.0
+        },
+        "Fiji": {
+            "Fiji": 0.0625,
+            "Phi Gamma Delta": 1.0,
+            "George Veikoso": 1.0,
+            "Fiwi": 1.0
+        },
+        "Finland": {
+            "Finland": 0.03225806451612903,
+            "Grand Principality of Finland": 1.0,
+            "SS Finland": 1.0,
+            "Finland in the Eurovision Song Contest 1988": 1.0
+        },
+        "French Polynesia": {
+            "French Polynesia": 1.0,
+            "French polynesia": 1.0,
+            "flag of French Polynesia": 1.0,
+            "coat of arms of French Polynesia": 1.0,
+            "2020 COVID-19 pandemic in French Polynesia": 1.0,
+            "geography of French Polynesia": 1.0,
+            "French Polynesia's 1st constituency": 1.0
+        },
+        "Gabon": {
+            "Gabon": 1.0,
+            "Komo River": 0.5,
+            "Gabo\u0144": 1.0
+        },
+        "The Gambia": {
+            "Gambia": 0.16666666666666666,
+            "Commonwealth realm of the Gambia": 1.0,
+            "The Gambia National Assembly Election Results 6th. April 2017": 1.0,
+            "The Gambia": 1.0,
+            "flag of the Gambia": 1.0,
+            "Gambia at the Olympics": 1.0,
+            "coat of arms of the Gambia": 1.0
+        },
+        "Georgia": {
+            "Georgia": 1.0,
+            "Kingdom of Georgia": 1.0,
+            "359 Georgia": 1.0,
+            "Province of Georgia": 1.0
+        }
     }
 ]

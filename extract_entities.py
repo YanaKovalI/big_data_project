@@ -6,8 +6,11 @@ import spacy
 def extract_entities_from_table(input_table):
     try:
         table = pd.read_csv(input_table)
+        values = table.iloc[:, 0] #first column values
+        for value in values:
+            value_type = type(value) #type of the first value
         # Check if the first column is named 'id'
-        if 'id' in table.columns[0].lower():
+        if 'id' in table.columns[0].lower() or isinstance(value_type, int) == True:
             # If it's an "id" column, return entities from the second column
             return table.iloc[:, 1].tolist()
         else:

@@ -12,6 +12,7 @@ import relatedness
 import label_search_wikidata
 from label_search_wikidata import SPARQLQueryDispatcher
 import json
+import pandas as pd
 
 
 def wikidata_main():
@@ -103,9 +104,8 @@ def get_relatedness_for_multiple_tables(table1="data/example_dataset/countries8.
         print("{0}: {1}".format(key, value))
 
 
-get_relatedness_for_multiple_tables()
-
-
+get_relatedness_for_multiple_tables()   
 # def main(input_table, order_path, n1, n2, m1, m2, quelle):
+
 
 

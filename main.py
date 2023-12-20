@@ -68,6 +68,7 @@ def get_relatedness_for_multiple_tables(table1="data/example_dataset/countries8.
     dirname = os.path.dirname(__file__)
     directory = os.path.join(dirname, 'data\\example_dataset')
     for root, dirs, files in os.walk(directory):
+        file_number = 1
         for file in files:
             if file.endswith(".csv"):
                 filename = os.path.join('data\\example_dataset', file)
@@ -85,6 +86,8 @@ def get_relatedness_for_multiple_tables(table1="data/example_dataset/countries8.
 
                 calculation_stop = time.time()
                 calculation_time += calculation_stop - query_stop
+                print("\nCalculated relatedness for file {0} ({1}/{2})\n".format(str(file), str(file_number), len(files)))
+                file_number += 1
 
     sorting_stop = time.time()
 
@@ -98,14 +101,14 @@ def get_relatedness_for_multiple_tables(table1="data/example_dataset/countries8.
     print("Top 5 related tables are:")
     i = 0
     for key, value in sorted_relatedness.items():
-        if i >= 4:
+        if i >= 5:
             break
         i += 1
         print("{0}: {1}".format(key, value))
 
 
-#get_relatedness_for_multiple_tables()   
+get_relatedness_for_multiple_tables()
 # def main(input_table, order_path, n1, n2, m1, m2, quelle):
 
-entities = extract_entities.extract_entities_from_table("data/datalake/wholesale_markets_2.csv")
-print(entities)
+# entities = extract_entities.extract_entities_from_table("data/datalake/wholesale_markets_2.csv")
+# print(entities)

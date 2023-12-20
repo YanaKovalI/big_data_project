@@ -10,7 +10,7 @@ def extract_entities_from_table(input_table):
             values = table.iloc[:, i]    # values of this column
             if 'id' not in table.columns[i].lower() and 'number' not in table.columns[i].lower():
                 first_value = values.iloc[0]
-                print(f"first value of the column : {first_value}")
+                # print(f"first value of the column : {first_value}")
                 if not pd.isnull(first_value):
                     if not isinstance(first_value, (int, float)):
                         try:

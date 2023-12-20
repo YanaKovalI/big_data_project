@@ -8,44 +8,57 @@ cache = dict()
 
 
 def get_weighted_labels(entities, limit=99999):
-    labels = {}
-    entities_not_in_db = set()
+    entity_number = 1
+    entities_weighted_labels = dict()
+    entity_labels = dict()
     for entity in entities:
         try:
-            data = labelsdb.get_labels(entity)
-            if data is not None:
-                labels[entity] = data
+            weighted_labels = labelsdb.get_weighted_labels(entity)
+            if weighted_labels is not None:
+                entities_weighted_labels[entity] = weighted_labels
+                print("Calculated {0} weighted labels for entity {1} ({2}/{3})".format(len(weighted_labels), entity, entity_number, len(entities)))
+                entity_number += 1
             else:
-                entities_not_in_db.add(entity)
-                labels[entity] = get_labels_by_query(entity, limit)
+                entity_labels[entity] = get_labels_by_query(entity, limit)
 
         except Exception as e:
-            entities_not_in_db.add(entity)
-            labels[entity] = get_labels_by_query(entity, limit)
+            entity_labels[entity] = get_labels_by_query(entity, limit)
 
-    entity_count = 1
+    entities_not_in_db = list(entity_labels.keys())
     for entity in entities_not_in_db:
-        entity_labels = labels[entity]
+        labels = entity_labels[entity]
 
-        weighted_labels = get_weighted_labels_in_chunks(entity_labels)
+        if labels:
+            weighted_labels = get_weights(labels)
+            labelsdb.put_weighted_labels(entity, weighted_labels)
+        else:
+            weighted_labels = dict()
+            labelsdb.put_labelless_entity(entity)
 
-        # if big queries did not work, query for each label individually
-        if entity_labels and not weighted_labels:
-            weighted_labels = {}
-            label_count = 1
-            for label in entity_labels:
-                weighted_labels[label] = get_weights(label)
-                label_count += 1
-                print("Calculated weights for {0} labels of {1} in entity {2} of {3}".format(label_count,
-                                                                                             len(entity_labels),
-                                                                                             entity_count,
-                                                                                             len(entities)))
-        labels[entity] = weighted_labels
-        print("Weighted labels for {0}: ".format(entity))
-        print(weighted_labels)
-        entity_count += 1
-        labelsdb.put_labels(entity, weighted_labels)
-    return labels
+        entities_weighted_labels[entity] = weighted_labels
+        print("Calculated {0} weighted labels for entity {1} ({2}/{3})".format(len(weighted_labels), entity, entity_number, len(entities)))
+        entity_number += 1
+    return entities_weighted_labels
+
+
+def get_weights(labels):
+    weighted_labels = dict()
+    for label in labels:
+        try:
+            weight = labelsdb.get_weight(label)
+            if weight:
+                weighted_labels[label] = weight
+        except Exception as e:
+            print(e)
+    labels2 = list(set(labels) - set(weighted_labels.keys()))
+    if labels:
+        weighted_labels_chunked = get_weighted_labels_in_chunks(labels2)
+        if weighted_labels_chunked:
+            weighted_labels = weighted_labels | weighted_labels_chunked
+        else:
+            for label in labels2:
+                weighted_labels[label] = get_weights_for_single_label(label)
+    return weighted_labels
 
 
 def get_weighted_labels_in_chunks(labels):
@@ -55,16 +68,14 @@ def get_weighted_labels_in_chunks(labels):
         entity_labels_chunks = list()
         for i in range(0, len(labels), 100):
             entity_labels_chunks.append(labels[i:i + 100])
-        weighted_labels_chunks = list()
-        for chunk in entity_labels_chunks:
-            weighted_labels_chunks.append(get_weights_with_one_query(chunk))
         weighted_labels = dict()
-        for chunk in weighted_labels_chunks:
-            weighted_labels = weighted_labels | chunk
+        for chunk in entity_labels_chunks:
+            weighted_labels = weighted_labels | get_weights_with_one_query(chunk)
         return weighted_labels
     except Exception as e:
         print(e)
-        return dict(labels)
+        tuples = [(l, 0) for l in labels]
+        return dict(tuples)
 
 
 def get_labels_by_query(entity, limit):
@@ -89,13 +100,11 @@ def get_labels_by_query(entity, limit):
             for binding in ret["results"]["bindings"]:
                 labels.append(binding["relatedEntityLabel"]["value"])
 
-        print("Labels für " + entity + ": ")
-        print(labels)
-        return labels
+        return list(set(labels))
 
     except Exception as e:
         print(e)
-        return dict()
+        return list()
 
 
 def get_weights_with_one_query(labels):
@@ -133,7 +142,7 @@ def get_weights_with_one_query(labels):
         return dict()
 
 
-def get_weights(label):
+def get_weights_for_single_label(label):
     label = label.replace(" ", "_")
     weight = cache.get(label)
     if weight is not None:
@@ -154,7 +163,6 @@ def get_weights(label):
 
         weight = ret["results"]["bindings"][0]["callret-0"]["value"]
 
-        # print("Weight for label '" + label + ": " + weight)
         if int(weight) != 0:
             weight = 1 / float(weight)
             cache[label] = weight

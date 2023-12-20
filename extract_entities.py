@@ -5,19 +5,25 @@ import spacy
 # extract entities from the first/second column
 def extract_entities_from_table(input_table):
     try:
-        table = pd.read_csv(input_table)
-        values = table.iloc[:, 0] #first column values
-        for value in values:
-            value_type = type(value) #type of the first value
-        # Check if the first column is named 'id'
-        if 'id' in table.columns[0].lower() or isinstance(value_type, int) == True:
-            # If it's an "id" column, return entities from the second column
-            return table.iloc[:, 1].tolist()
-        else:
-            # Extract entities from the first column
-            entities = table.iloc[:, 0].tolist()
-            entities = cleanup_entitites(entities)
-            return entities
+       table = pd.read_csv(input_table)
+       for i in range(len(table.columns)):
+            values = table.iloc[:, i]    # values of this column
+            if 'id' not in table.columns[i].lower() and 'number' not in table.columns[i].lower():
+                first_value = values.iloc[0]
+                print(f"first value of the column : {first_value}")
+                if not pd.isnull(first_value):
+                    if not isinstance(first_value, (int, float)):
+                        try:
+                            pd.to_datetime(first_value)  # Check if the value can be converted to a date
+                        except ValueError:
+                            # If it raises a ValueError, it's neither int, float, nor date
+                            return values.tolist()
+            else:
+            # Extract entities from the current column
+                i += 1
+                entities = table.iloc[:, i].tolist()
+                entities = cleanup_entitites(entities)
+                return entities
 
     except Exception as e:
         print(str(e) + "at table " + str(input_table))

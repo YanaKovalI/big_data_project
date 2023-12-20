@@ -104,8 +104,8 @@ def get_relatedness_for_multiple_tables(table1="data/example_dataset/countries8.
         print("{0}: {1}".format(key, value))
 
 
-get_relatedness_for_multiple_tables()   
+#get_relatedness_for_multiple_tables()   
 # def main(input_table, order_path, n1, n2, m1, m2, quelle):
 
-
-
+entities = extract_entities.extract_entities_from_table("data/datalake/wholesale_markets_2.csv")
+print(entities)

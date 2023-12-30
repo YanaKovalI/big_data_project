@@ -13,6 +13,7 @@ import label_search_wikidata
 from label_search_wikidata import SPARQLQueryDispatcher
 import json
 import pandas as pd
+import labelsdb_wiki
 
 
 def wikidata_main():
@@ -27,7 +28,6 @@ def wikidata_main():
     print("RESULT after {0} of calculation:".format(datetime.datetime.now().replace(microsecond=0) - start_time))
     print("Average relatedness between " + str(table1) + " and " + str(table2) + ": " + str(relatedness_between_sets))
 
-# wikidata_main()
 
 
 def weighted_dbpedia_main():
@@ -52,10 +52,7 @@ def weighted_dbpedia_main():
     print("Average relatedness between " + str(table1) + " and " + str(table2) + ": " + str(r3))
 
 
-# weighted_dbpedia_main()
-
-
-def get_relatedness_for_multiple_tables(table1="data/example_dataset/countries8.csv"):
+def get_relatedness_for_multiple_tables_dbpedia(table1="data/example_dataset/countries8.csv"):
     labelsdb.init_database()
 
     query_time = 0
@@ -107,7 +104,58 @@ def get_relatedness_for_multiple_tables(table1="data/example_dataset/countries8.
         print("{0}: {1}".format(key, value))
 
 
-get_relatedness_for_multiple_tables()
+def get_relatedness_for_multiple_tables_wiki(table1="data/example_dataset/countries8.csv"):
+    labelsdb_wiki.init_database()
+    query_time = 0
+    calculation_time = 0
+
+    entities1 = extract_entities.extract_entities_from_table(table1)
+    wikidata_labels1 = get_info_from_wikidata.get_entity_info(entities1)
+    wikidata_weighted_labels1 = label_search_wikidata.get_weighted_labels(wikidata_labels1)
+    table_relatedness = dict()
+
+    dirname = os.path.dirname(__file__)
+    directory = os.path.join(dirname, 'data\\example_dataset')
+    for root, dirs, files in os.walk(directory):
+        file_number = 1
+        for file in files:
+            if file.endswith(".csv"):
+                filename = os.path.join('data\\example_dataset', file)
+                start = time.time()
+
+                entities2 = extract_entities.extract_entities_from_table(filename)
+                wikidata_labels2 = get_info_from_wikidata.get_entity_info(entities2)
+                wikidata_weighted_labels2 = label_search_wikidata.get_weighted_labels(wikidata_labels2)
+                query_stop = time.time()
+                query_time += query_stop - start
+
+                r3 = relatedness.get_set_relatedness_expansion(wikidata_weighted_labels1, wikidata_weighted_labels2)
+                table_relatedness[file] = r3
+
+                calculation_stop = time.time()
+                calculation_time += calculation_stop - query_stop
+                print("\nCalculated relatedness for file {0} ({1}/{2})\n".format(str(file), str(file_number), len(files)))
+                file_number += 1
+
+    sorting_stop = time.time()
+
+    sorted_relatedness = dict(sorted(table_relatedness.items(), key=lambda item: item[1], reverse=True))
+
+    calculation_time += time.time() - sorting_stop
+
+    print("\n")
+    print("RESULT after {0} of getting labels and {1} of calculating:".format(query_time, calculation_time))
+    print("Relatedness between {0} and all tables is: {1}".format(str(table1), sorted_relatedness))
+    print("Top 5 related tables are:")
+    i = 0
+    for key, value in sorted_relatedness.items():
+        if i >= 5:
+            break
+        i += 1
+        print("{0}: {1}".format(key, value))        
+
+
+get_relatedness_for_multiple_tables_wiki()
 # def main(input_table, order_path, n1, n2, m1, m2, quelle):
 
 # entities = extract_entities.extract_entities_from_table("data/datalake/wholesale_markets_2.csv")
